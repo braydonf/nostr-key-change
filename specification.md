@@ -24,7 +24,7 @@ This is an event that is non-replaceable. Its primary purpose is to define a set
 
 ```json
 {
-  "kind": <x>,
+  "kind": "<tbd>",
   "pubkey": "<user-pubkey>",
   "tags": [
     ["p", "<recovery-pubkey-1>"],
@@ -40,25 +40,27 @@ This is an event that is non-replaceable. Its primary purpose is to define a set
 * A `p` tag MUST BE included and be the hex encoded public keys for the recovery keys.
 * If `threshold` tag is NOT included, the threshold should default to `1`.
 * The `recovery-key-setup` MUST BE included, it's otherwise ignored, however can help prevent making this event by chance or accident.
-* The content MAY INCLUDE with a comment, most clients can ignore this field.
+* The content MAY INCLUDE a comment, most clients can ignore this field.
 
 ### Behaviors
 
+* Clients MUST ONLY consider one to be valid.
+* If multiple events exist for a pubkey, a user interface SHOULD PROVIDE a means to pick one. There can be various means to help select the key including; displaying public attestations from within a social graph or NIP-03 timestamp associated with the event.
+* Any future events of this kind MUST NOT be automatically accepted and considered verified as it could be from an attacker due to a compromised or stolen private key, it could ALSO be the honest event.
 * Every client SHOULD make either a private or public attestation when receiving a Recovery Keys Setup Event for pubkeys that they follow. The default SHOULD BE private. The client SHOULD provide user interaction to make attestations public or private.
 * The attestations SHOULD be stored locally to verify a possible future Key Migration and Revocation Event.
-* Any future events of this kind MUST NOT be automatically accepted and considered verified as it could be from an attacker due to a compromised or stolen private key, it could ALSO be the honest event.
-* Clients MAY PROVIDE a manual verification process that can be verified through a side-channel to be able to independently replace the Recovery Keys Setup Event.
+* Relays SHOULD STORE multiple events from a pubkey of this kind.
 * Clients SHOULD implement a user interface to help prevent accidental broadcasts of this event.
-* Relays MAY STORE multiple events from a pubkey of this kind.
-* Clients MUST ONLY consider one to be valid. If multiple exist, a user interface SHOULD PROVIDE a means to pick one. There can be various means to help select the key including; displaying public attestations from within a social graph or NIP-03 timestamp associated with the event.
+* Clients MAY PROVIDE a manual verification process that can be verified through a side-channel to be able to independently replace the Recovery Keys Setup Event.
+
 
 ## Recovery Keys Attestation Event
 
-This is an event that is non-replaceable. This is a means to select a valid and verified Recovery Keys Setup Event for another pubkey. The attestation can be either private or public. By making a public attestation, others in the network can see that they are able to verify the recovery keys for a profile; this can help built a robust fault-tolerant social graph. The default option SHOULD BE private. The primary purpose for this event is for clients to be able to verify the recovery keys for a Key Migration and Revocation Event.
+This is an event that is non-replaceable. This is a means save a single valid Recovery Keys Setup Event for another pubkey. The attestation can be either private or public. By making a public attestation, others in the network can see that they are able to verify the recovery keys for a profile; this can help built a robust fault-tolerant social graph. The default option SHOULD BE private. The primary purpose for this event is for clients to be able to verify the recovery keys for a Key Migration and Revocation Event.
 
 ```json
 {
-  "kind": <x>,
+  "kind": "<tbd>",
   "pubkey": "<user-pubkey>",
   "tags": [
     ["p", "<pubkey-of-friend>"],
@@ -82,7 +84,7 @@ This is an event that is non-replaceable. It will revoke a pubkey and all events
 
 ```json
 {
-  "kind": <x>,
+  "kind": "<tbd>",
   "pubkey": "<user-pubkey>",
   "tags": [
     ["new-key", "<new-pubkey>"],
@@ -132,7 +134,7 @@ For a relay, this event is primarily a key revocation, and storing the necessary
 This is an event that is non-replaceable and MUST EITHER be unencrypted and public or encrypted and private. The default SHOULD BE private. The primary purpose of this event is for each client to keep track of old keys that should be blocked, filtered and muted. The secondary purpose of this event is to signal to other clients of a successful path for key migration.
 
 ```json
-  "kind": <x>,
+  "kind": "<tbd>",
   "pubkey": "<user-pubkey>",
   "tags": [
     ["p", "<old-pubkey>"],
