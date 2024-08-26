@@ -52,6 +52,7 @@ This is an event that is non-replaceable. Its primary purpose is to define a set
 * Relays SHOULD STORE multiple events from a pubkey of this kind.
 * Clients SHOULD implement a user interface to help prevent accidental broadcasts of this event.
 * Clients MAY PROVIDE a manual verification process that can be verified through a side-channel to be able to independently replace the Recovery Keys Setup Event.
+* Clients are encouraged to use hardware devices and NIP-06 seed phrases to backup the recovery keys.
 
 
 ## Recovery Keys Attestation Event
