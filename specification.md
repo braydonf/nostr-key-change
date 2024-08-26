@@ -46,7 +46,7 @@ This is an event that is non-replaceable. Its primary purpose is to define a set
 
 * Every client SHOULD make either a private or public attestation when receiving a Recovery Keys Setup Event for pubkeys that they follow. The default SHOULD BE private. The client SHOULD provide user interaction to make attestations public or private.
 * The attestations SHOULD be stored locally to verify a possible future Key Migration and Revocation Event.
-* Any future events of this kind MUST NOT be automatically accepted and considered verified as it could be from an attacker due to a compromised or stolen private key.
+* Any future events of this kind MUST NOT be automatically accepted and considered verified as it could be from an attacker due to a compromised or stolen private key, it could ALSO be the honest event.
 * Clients MAY PROVIDE a manual verification process that can be verified through a side-channel to be able to independently replace the Recovery Keys Setup Event.
 * Clients SHOULD implement a user interface to help prevent accidental broadcasts of this event.
 * Relays MAY STORE multiple events from a pubkey of this kind.
@@ -68,7 +68,8 @@ This is an event that is non-replaceable. This is a means to select a valid and 
 }
 ```
 
-* The `p` tag for a public attestation MUST INCLUDE a public key and MUST MATCH the pubkey for the Recovery Key Setup Event. A private attestation MUST NOT include this tag.
+* The `p` tag for a public attestation MUST INCLUDE a public key and MUST MATCH the pubkey for the Recovery Key Setup Event.
+- A private attestation MUST NOT include the `p` tag.
 * The `content` field MUST INCLUDE the Recovery Key Setup Event either encrypted and private or unencrypted and public.
 * The `recovery-key-attestation` MUST BE included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY BE included for this event and clients can use this to help with verification.
