@@ -1,18 +1,39 @@
 NIP-X
 =====
 
-Key Change and Revocation
+Key Migration and Revocation
 ------
 
 `draft` `optional` `author:braydonf`
 
-This NIP defines the protocol that SHOULD BE implemented by clients to handle a key change and revocation of a key, this can facilitate identity migration and deletion of identities and events. This specification uses one or multiple methods to verify the successor key, including a social graph, backup recovery keys and external identity anchor points. Future proposals can add additional means for verification that can be compatible.
+This NIP defines the protocol that SHOULD BE implemented by clients to handle a key migration and revocation of a key. This specification uses one or multiple methods to verify the successor key, if specified, including a social graph, backup recovery keys and side-channel identity anchor points.
 
 ## Backup Keys
 
 ### Setup Event
 
-This is a one-time event that is non-replaceable. Clients SHOULD implement a means to verify that users are aware of these conditions to avoid accidental broadcast of the event. Every client is individually responsible for storing a copy of this event that they have also signed. Any future events of this type MUST NOT be replaced automatically as it could be from an attacker due to a compromised or stolen private key. Clients MAY provide a manual verification process that can be verified through a side-channel to be able to independently replace the setup event. The recovery setup event can assign anywhere from 1 to `n` backup keys assigned to be able to sign the change and revocation event. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
+This is an event that is non-replaceable and ONLY ONE can be considered valid. Clients SHOULD implement a means to verify that users are aware of these conditions to avoid accidental broadcast of the event. Every client is individually responsible for storing a copy of this event and SHOULD also store it on relays, signed via attestations. Any future events of this type MUST NOT be replaced automatically as it could be from an attacker due to a compromised or stolen private key. Clients MAY provide a manual verification process that can be verified through a side-channel to be able to independently replace the setup event. The recovery setup event can assign anywhere from 1 to `n` backup keys assigned to be able to sign the change and revocation event. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
+
+```json
+{
+  "kind": x,
+  "pubkey": "<user-pubkey>",
+  "tags": [
+    ["p", "<backup-pubkey-1>"],
+    ["p", "<backup-pubkey-2>"],
+    ["p", "<backup-pubkey-3>"],
+    ["threshold", "2"]
+  ],
+  "content": "",
+  // ...
+}
+```
+
+* A `p` tag MUST BE included and be the hex encoded public keys for the backup recovery keys.
+* If `threshold` tag is NOT included, the threshold should default to `1`.
+* The content MAY include with a comment, most clients can ignore this field.
+* Relays MAY store multiple events from a pubkey of this kind.
+* Clients MUST only consider one to be valid. If multiple exist, a user interface SHOULD provide a means to pick one. There can be various means to help select the key including; sending a DM, displaying public attestations from within a social graph or NIP-03 (OpenTimestamps Attestations for Events) timestamps associated with the event.
 
 ### Attestation Event
 
