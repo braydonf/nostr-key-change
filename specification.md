@@ -10,7 +10,7 @@ This NIP defines the protocol that SHOULD BE implemented by clients and relays t
 
 ## Backup Keys
 
-### Setup Event
+### Backup Keys Setup Event
 
 This is an event that is non-replaceable and ONLY ONE can be considered valid. Clients SHOULD implement a means to verify that users are aware of these conditions to avoid accidental broadcast of the event. Every client is individually responsible for storing a copy of this event and SHOULD also store it on relays, signed via attestations. Any future events of this type MUST NOT be replaced automatically as it could be from an attacker due to a compromised or stolen private key. Clients MAY provide a manual verification process that can be verified through a side-channel to be able to independently replace the setup event. The recovery setup event can assign anywhere from 1 to `n` backup keys assigned to be able to sign the change and revocation event. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
 
@@ -37,7 +37,7 @@ This is an event that is non-replaceable and ONLY ONE can be considered valid. C
 * Relays MAY store multiple events from a pubkey of this kind.
 * Clients MUST only consider one to be valid. If multiple exist, a user interface SHOULD provide a means to pick one. There can be various means to help select the key including; sending a DM, displaying public attestations from within a social graph or NIP-03 (OpenTimestamps Attestations for Events) timestamps associated with the event.
 
-### Social Attestation Event
+### Backup Keys Social Attestation Event
 
 This is an event that is non-replaceable. This is a means to select a valid and verified Backup Keys Setup Event for another pubkey. The attestation can be either private or public. By making a public attestation, others in the network can see that you're able to verify the backup key for a profile; this can help built a robust fault-tolerant social graph. The default option SHOULD be private. The primary purpose for this event is for clients to be able to verify the backup keys for a Key Migration and Revocation event (see below).
 
