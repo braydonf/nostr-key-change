@@ -41,8 +41,6 @@ This is an event that is non-replaceable. It's primary purpose is to define a se
 * If `threshold` tag is NOT included, the threshold should default to `1`.
 * The `recovery-key-setup` MUST BE included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * The content MAY INCLUDE with a comment, most clients can ignore this field.
-* Relays MAY STORE multiple events from a pubkey of this kind.
-* Clients MUST ONLY consider one to be valid. If multiple exist, a user interface SHOULD PROVIDE a means to pick one. There can be various means to help select the key including; sending a DM, displaying public attestations from within a social graph or NIP-03 timestamp associated with the event.
 
 ### Behaviors
 
@@ -51,6 +49,8 @@ This is an event that is non-replaceable. It's primary purpose is to define a se
 * Any future events of this kind MUST NOT be automatically accepted and considered verified as it could be from an attacker due to a compromised or stolen private key.
 * Clients MAY PROVIDE a manual verification process that can be verified through a side-channel to be able to independently replace the setup event.
 * Clients SHOULD implement a user interface to help prevent accidental broadcasts of this event.
+* Relays MAY STORE multiple events from a pubkey of this kind.
+* Clients MUST ONLY consider one to be valid. If multiple exist, a user interface SHOULD PROVIDE a means to pick one. There can be various means to help select the key including; sending a DM, displaying public attestations from within a social graph or NIP-03 timestamp associated with the event.
 
 ## Recovery Keys Attestation Event
 
