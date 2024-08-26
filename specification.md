@@ -100,13 +100,13 @@ This is an event that is non-replaceable. It will revoke a pubkey and all events
 * The `content` MUST INCLUDE the signatures for `m` of `n` public keys as specified in the referenced Recovery Keys Setup Event. The signature SHOULD BE for the entire event as similar to the event signature.
 * If a `new-key` IS provided, the `key-migration-and-revocation` tag MUST BE included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * If a `new-key` IS NOT provided, the `key-revocation` tag MUST BE included, this is also to help prevent mistakes.
-* Clients SHOULD implement a means to verify that users are aware of the account and behaviors of the event to avoid accidental broadcast. Please see the External References for UX guidance.
+* Clients SHOULD implement a means to verify that users are aware of the account and behaviors of the event to avoid accidental broadcast. Please see the [External References](#external-references) section for UX guidance.
 * A NIP-03 timestamp attestation MAY BE included for this event and clients can use this to help with verification.
 * Clients MAY use a NIP-18 Generic Repost with a copy of the event in the content to help relay distribution.
 
 ### Event Handling for Clients
 
-For a client, this event is both a revocation and a migration. The revocation MUST BE handled by verifying only the event signature and MUST BE automatic. The migration, on the other hand, MUST BE presented and verified by the user to accept or reject the migration key change. Please see the External Refereces section for additional guidance for UX design.
+For a client, this event is both a revocation and a migration. The revocation MUST BE handled by verifying only the event signature and MUST BE automatic. The migration, on the other hand, MUST BE presented and verified by the user to accept or reject the migration key change. Please see the [External References](#external-references) section for additional guidance for UX design.
 
 #### Behaviors
 * Verification of the event and NOT the recovery keys determines if a revocation is valid.
@@ -151,9 +151,5 @@ This is an event that is non-replaceable and MUST EITHER be unencrypted and publ
 * For a private attestation, the tags `p`, `e` and `new-key` MUST NOT be included. This should instead be encrypted and base64 encoded into the content field.
 * The `key-migration-attestation` tag MUST BE included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY BE included for this event and clients can use this to help with verification.
-
-## Rationale
-
-## Acknowledgments
 
 ## External References
