@@ -39,7 +39,7 @@ This is an event that is non-replaceable and ONLY ONE can be considered valid. C
 
 ### Social Attestation Event
 
-This is an event that is non-replaceable. Each client SHOULD provide a means to verify, sign and date recovery keys for those in their network for additional security. Clients can then make a public or private attestation that they have stored the recovery public keys for another's profile. In addition to clients storing the Backup Keys Setup Event for everyone in their social graph, they can also store these attestations on relays either public or private and encrypted. By making a public attestation, others in the network can see that you're able to verify the backup key for a profile; this can help built a robust fault-tolerant social graph.
+This is an event that is non-replaceable. This is a means to select a valid and verified Backup Keys Setup Event for another pubkey. The attestation can be either private or public. By making a public attestation, others in the network can see that you're able to verify the backup key for a profile; this can help built a robust fault-tolerant social graph. The default option SHOULD be private. The primary purpose for this event is for clients to be able to verify the backup keys for a Key Change and Revocation event (see below).
 
 ```json
 {
