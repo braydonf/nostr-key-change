@@ -85,7 +85,7 @@ A client when receiving the event SHOULD present the user with a user interface 
 * If a `new-key` IS provided, the `key-migration-and-revocation` tag MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * If a `new-key` IS NOT provided, the `key-revocation` tag MUST be included, this is also to help prevent mistakes.
 
-### Verification for Clients
+### Event Verification for Clients
 
 There are several ways to be able to verify the authenticity of a Key Migration and Revocation Event. The primary one is through the use of the defined backup recovery keys, the second means is by trusting those whom have already verified the change that are in a social graph and are now following the new key, the third way is through the use of side-channel external identities. All of these methods SHOULD be implemented, this specification only REQUIRES that at-least one of them is implemented. A client MUST NOT automatically, without user interaction, verify and switch to a new key and SHOULD present to the user a way to verify and accept the change. Please see External Refereces (below) for additional guidance for UX design.
 
@@ -100,7 +100,7 @@ There are several ways to be able to verify the authenticity of a Key Migration 
   - The old key MUST be stored for future reference to able to block and delete future events from the old key.
   - The old key MAY be added to other mute lists.
 
-### Verification for Relays
+### Event Verification for Relays
 
 Relays MUST delete all events after receiving and verifying a Key Migration and Revocation Event. For relays, the event MUST be verified by the user key AND NOT the backup keys. A relay MUST not accept any further events from the key EXCEPT additional key change and revocation events; this is to ensure that if a key is compromised and a fraudulent event is made, an honest event can also be made and broadcast. Each client can then verify which is honest.
 
