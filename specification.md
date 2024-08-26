@@ -69,7 +69,7 @@ This is an event that is non-replaceable. This is a means to select a valid and 
 ```
 
 * The `p` tag for a public attestation MUST INCLUDE a public key and MUST MATCH the pubkey for the Recovery Key Setup Event.
-- A private attestation MUST NOT include the `p` tag.
+* A private attestation MUST NOT include the `p` tag.
 * The `content` field MUST INCLUDE the Recovery Key Setup Event either encrypted and private or unencrypted and public.
 * The `recovery-key-attestation` MUST BE included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY BE included for this event and clients can use this to help with verification.
