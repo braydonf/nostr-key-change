@@ -20,7 +20,7 @@ There are four new events introduced:
 
 ## Recovery Keys Setup Event
 
-This is an event that is non-replaceable. Its primary purpose is to define a set of recovery keys that can be used to migrate to a new key in the future, if it becomes necessary. The event can assign anywhere from `1` to `n` recovery keys assigned to be able to sign the Key Migration and Revocation event. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
+This is an event that is non-replaceable. Its primary purpose is to define a set of recovery keys that can be used to migrate to a new key in the future, if it becomes necessary. The event can assign anywhere from `1` to `n` recovery keys assigned to be able to sign the Key Migration and Revocation Event. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
 
 ```json
 {
@@ -47,14 +47,14 @@ This is an event that is non-replaceable. Its primary purpose is to define a set
 * Every client SHOULD make either a private or public attestation when receiving a Recovery Keys Setup Event for pubkeys that they follow. The default SHOULD BE private. The client SHOULD provide user interaction to make attestations public or private.
 * The attestations SHOULD be stored locally to verify a possible future Key Migration and Revocation Event.
 * Any future events of this kind MUST NOT be automatically accepted and considered verified as it could be from an attacker due to a compromised or stolen private key.
-* Clients MAY PROVIDE a manual verification process that can be verified through a side-channel to be able to independently replace the setup event.
+* Clients MAY PROVIDE a manual verification process that can be verified through a side-channel to be able to independently replace the Recovery Keys Setup Event.
 * Clients SHOULD implement a user interface to help prevent accidental broadcasts of this event.
 * Relays MAY STORE multiple events from a pubkey of this kind.
 * Clients MUST ONLY consider one to be valid. If multiple exist, a user interface SHOULD PROVIDE a means to pick one. There can be various means to help select the key including; displaying public attestations from within a social graph or NIP-03 timestamp associated with the event.
 
 ## Recovery Keys Attestation Event
 
-This is an event that is non-replaceable. This is a means to select a valid and verified Recovery Keys Setup Event for another pubkey. The attestation can be either private or public. By making a public attestation, others in the network can see that you're able to verify the recovery keys for a profile; this can help built a robust fault-tolerant social graph. The default option SHOULD BE private. The primary purpose for this event is for clients to be able to verify the recovery keys for a Key Migration and Revocation event (see below).
+This is an event that is non-replaceable. This is a means to select a valid and verified Recovery Keys Setup Event for another pubkey. The attestation can be either private or public. By making a public attestation, others in the network can see that they are able to verify the recovery keys for a profile; this can help built a robust fault-tolerant social graph. The default option SHOULD BE private. The primary purpose for this event is for clients to be able to verify the recovery keys for a Key Migration and Revocation Event.
 
 ```json
 {
