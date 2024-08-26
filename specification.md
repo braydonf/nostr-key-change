@@ -20,7 +20,7 @@ There are four new events introduced:
 
 ## Recovery Keys Setup Event
 
-This is an event that is non-replaceable. It's primary purpose is to define a set of recovery keys that can be used to migrate to a new key in the future, if it becomes necessary. The event can assign anywhere from 1 to `n` recovery keys assigned to be able to sign the change and revocation event. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
+This is an event that is non-replaceable. Its primary purpose is to define a set of recovery keys that can be used to migrate to a new key in the future, if it becomes necessary. The event can assign anywhere from `1` to `n` recovery keys assigned to be able to sign the Key Migration and Revocation event. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
 
 ```json
 {
