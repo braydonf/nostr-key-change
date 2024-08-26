@@ -50,7 +50,7 @@ This is an event that is non-replaceable. It's primary purpose is to define a se
 * Clients MAY PROVIDE a manual verification process that can be verified through a side-channel to be able to independently replace the setup event.
 * Clients SHOULD implement a user interface to help prevent accidental broadcasts of this event.
 * Relays MAY STORE multiple events from a pubkey of this kind.
-* Clients MUST ONLY consider one to be valid. If multiple exist, a user interface SHOULD PROVIDE a means to pick one. There can be various means to help select the key including; sending a DM, displaying public attestations from within a social graph or NIP-03 timestamp associated with the event.
+* Clients MUST ONLY consider one to be valid. If multiple exist, a user interface SHOULD PROVIDE a means to pick one. There can be various means to help select the key including; displaying public attestations from within a social graph or NIP-03 timestamp associated with the event.
 
 ## Recovery Keys Attestation Event
 
