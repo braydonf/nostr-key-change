@@ -10,7 +10,7 @@ This NIP defines the protocol that SHOULD BE implemented by clients and relays t
 
 At the minimum this specification describes a protocol to revoke a public key for both relays and clients to delete events and prevent future events from a compromised private key and to provide a warning to users that the key is not valid.
 
-This specification also defines a protocol for migrate to a new successor key with multiple methods for users and clients to verify to accept or reject. This includes methods such as: a social graph with attestations, recovery keys and side-channel identity anchors.
+This specification also defines a protocol to migrate to a new successor key with multiple methods for users of clients to verify to accept or reject. This includes methods such as: a social graph with attestations, recovery keys and side-channel identity anchors.
 
 There are four new events introduced:
 * Recovery Keys Setup
