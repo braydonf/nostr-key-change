@@ -22,7 +22,8 @@ This is an event that is non-replaceable and ONLY ONE can be considered valid. C
     ["p", "<backup-pubkey-1>"],
     ["p", "<backup-pubkey-2>"],
     ["p", "<backup-pubkey-3>"],
-    ["threshold", "2"]
+    ["threshold", "2"],
+    ["backup-key-setup"]
   ],
   "content": "",
   // ...
@@ -31,13 +32,31 @@ This is an event that is non-replaceable and ONLY ONE can be considered valid. C
 
 * A `p` tag MUST BE included and be the hex encoded public keys for the backup recovery keys.
 * If `threshold` tag is NOT included, the threshold should default to `1`.
+* The `backup-key-setup` MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * The content MAY include with a comment, most clients can ignore this field.
 * Relays MAY store multiple events from a pubkey of this kind.
 * Clients MUST only consider one to be valid. If multiple exist, a user interface SHOULD provide a means to pick one. There can be various means to help select the key including; sending a DM, displaying public attestations from within a social graph or NIP-03 (OpenTimestamps Attestations for Events) timestamps associated with the event.
 
-### Attestation Event
+### Social Attestation Event
 
-This is a one-time event that is non-replaceable. Each client SHOULD provide a means to verify, sign and date recovery keys for those in their network for additional security. Clients can then make an public or private attestation that they have stored the recovery keys for a profile. In addition to clients storing the backup key event for each everyone in their social graph, they can also store these attestations on relays either public or private and encrypted. By making a public attestation, others in the network can see that you're able to verify the backup key for a profile; this can help built a robust fault-tolerant social graph.
+This is an event that is non-replaceable. Each client SHOULD provide a means to verify, sign and date recovery keys for those in their network for additional security. Clients can then make a public or private attestation that they have stored the recovery public keys for another's profile. In addition to clients storing the Backup Keys Setup Event for everyone in their social graph, they can also store these attestations on relays either public or private and encrypted. By making a public attestation, others in the network can see that you're able to verify the backup key for a profile; this can help built a robust fault-tolerant social graph.
+
+```json
+{
+  "kind": x,
+  "pubkey": "<user-pubkey>",
+  "tags": [
+    ["p", "<pubkey-of-friend>"],
+    ["backup-key-attestation"]
+  ],
+  "content": "<backup-key-setup-event>",
+  // ...
+}
+```
+
+* The `p` tag for a public attestation MUST include a public key and MUST match the pubkey for the Backup Key Setup Event. A private attestation MUST NOT include this tag.
+* The `content` field MUST include the Backup Key Setup Event either encrypted and private or unencrypted and public.
+* The `backup-key-attestation` MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 
 ## Key Change and Revocation
 
