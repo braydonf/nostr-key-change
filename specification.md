@@ -6,7 +6,7 @@ Key Migration and Revocation
 
 `draft` `optional` `author:braydonf`
 
-This NIP defines the protocol that SHOULD BE implemented by clients to handle a key migration and revocation of a key. This specification uses one or multiple methods to verify the successor key, if specified, including a social graph, backup recovery keys and side-channel identity anchor points.
+This NIP defines the protocol that SHOULD BE implemented by clients and relays to handle a key migration and revocation of a key. This specification uses one or multiple methods to verify the successor key, if specified, including a social graph, backup recovery keys and side-channel identity anchor points.
 
 ## Backup Keys
 
@@ -14,9 +14,9 @@ This NIP defines the protocol that SHOULD BE implemented by clients to handle a 
 
 This is an event that is non-replaceable and ONLY ONE can be considered valid. Clients SHOULD implement a means to verify that users are aware of these conditions to avoid accidental broadcast of the event. Every client is individually responsible for storing a copy of this event and SHOULD also store it on relays, signed via attestations. Any future events of this type MUST NOT be replaced automatically as it could be from an attacker due to a compromised or stolen private key. Clients MAY provide a manual verification process that can be verified through a side-channel to be able to independently replace the setup event. The recovery setup event can assign anywhere from 1 to `n` backup keys assigned to be able to sign the change and revocation event. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
 
-```json
+```js
 {
-  "kind": x,
+  "kind": <x>,
   "pubkey": "<user-pubkey>",
   "tags": [
     ["p", "<backup-pubkey-1>"],
@@ -41,9 +41,9 @@ This is an event that is non-replaceable and ONLY ONE can be considered valid. C
 
 This is an event that is non-replaceable. This is a means to select a valid and verified Backup Keys Setup Event for another pubkey. The attestation can be either private or public. By making a public attestation, others in the network can see that you're able to verify the backup key for a profile; this can help built a robust fault-tolerant social graph. The default option SHOULD be private. The primary purpose for this event is for clients to be able to verify the backup keys for a Key Migration and Revocation event (see below).
 
-```json
+```js
 {
-  "kind": x,
+  "kind": <x>,
   "pubkey": "<user-pubkey>",
   "tags": [
     ["p", "<pubkey-of-friend>"],
@@ -66,9 +66,9 @@ This is an event that is non-replaceable. Clients SHOULD implement a means to ve
 
 A client when receiving the event SHOULD present the user with a user interface to be able to verify the authenticity of the request, independently, and the provide a way to unfollow the identity and follow the new identity instead. A client MAY keep a record of the previous key for reference. The existence of a Backup Keys Setup Event is NOT REQUIRED to be able to handle a Key Migration and Revocation Event, however it will not be able to use any backup recovery keys to verify and instead will only rely on the other two methods to verify.
 
-```json
+```js
 {
-  "kind": x,
+  "kind": <x>,
   "pubkey": "<user-pubkey>",
   "tags": [
     ["new-key", "<new-key>"],
