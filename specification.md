@@ -62,9 +62,7 @@ This is an event that is non-replaceable. This is a means to select a valid and 
 
 ### Event
 
-This is an event that is non-replaceable. Clients SHOULD implement a means to verify that users are aware of these conditions to avoid accidental broadcast of the event.
-
-A client when receiving the event SHOULD present the user with a user interface to be able to verify the authenticity of the request, independently, and the provide a way to unfollow the identity and follow the new identity instead. A client MAY keep a record of the previous key for reference. The existence of a Backup Keys Setup Event is NOT REQUIRED to be able to handle a Key Migration and Revocation Event, however it will not be able to use any backup recovery keys to verify and instead will only rely on the other two methods to verify.
+This is an event that is non-replaceable. It will revoke a pubkey and all events for the key will be deleted. It will also provide a key migration for clients and users to accept or reject the key migration based on various means of verification including; backup keys, social graph and external identities.
 
 ```js
 {
@@ -81,9 +79,10 @@ A client when receiving the event SHOULD present the user with a user interface 
 ```
 
 * The `new-key` tag SHOULD BE included, otherwise it will be a key revocation without a successor key and all events will be deleted.
-* The `content` MUST include the signatures for `m` of `n` public keys as specified in the referenced Backup Keys Setup Event. The signature should be over the entire event as similar to the event signature.
+* The `content` MUST include the signatures for `m` of `n` public keys as specified in the referenced Backup Keys Setup Event. The signature SHOULD for the entire event as similar to the event signature.
 * If a `new-key` IS provided, the `key-migration-and-revocation` tag MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * If a `new-key` IS NOT provided, the `key-revocation` tag MUST be included, this is also to help prevent mistakes.
+* Clients SHOULD implement a means to verify that users are aware of the account and behaviors of the event to avoid accidental broadcast. Please see the External References for UX guidance.
 
 ### Event Handling for Clients
 
@@ -94,7 +93,7 @@ For a client, this event is both a revocation and a migration. The revocation MU
 - Upon a valid key revocation:
   - All events MUST display a warning that the event is from a revoked pubkey.
   - All events of a revoked pubkey SHOULD be deleted, this MAY BE after a duration of time depending on the client or preferences.
-- A user interface MUST display to the user an option to accept or reject a key migration. This SHOULD include the backup keys and how many have valid signatures, social graph verification of those that they follow that are now following the new key, and an other side-channel pinned identities such as with NIP-05. At least one method MUST be provided.
+- A user interface MUST display to the user an option to accept or reject a key migration. This SHOULD include the backup keys and how many have valid signatures, social graph verification of those that they follow that are now following the new key, and an other side-channel pinned identities such as with NIP-05. At least one method MUST be provided. The existence of a Backup Keys Setup Event is NOT REQUIRED to be able to handle a Key Migration and Revocation Event.
 - Upon a valid key migration:
   - The old key MUST be unfollowed and the new key MUST be followed.
   - The old key MUST be stored for future reference to able to block and delete future events from the old key.
