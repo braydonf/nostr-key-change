@@ -126,7 +126,7 @@ For a relay, this event is primarily a key revocation, and storing the necessary
 #### Behaviors
 * Verification of the event and NOT the recovery keys determines if a revocation is valid.
 * Upon a valid key revocation:
-  * All events of a revoked pubkey MUST BE deleted. The timeframe that events are deleted MAY BE defined by an agreed upon terms between client and relay.
+  * All events of a revoked pubkey MUST BE deleted. The time-frame that events are deleted MAY BE defined by an agreed upon terms between client and relay.
   * All future events, as determined when it was received and not the date on the event, of a revoked pubkey MUST BE rejected except for another Key Migration and Revocation event. This is to ensure that if a key is compromised and a fraudulent event is made, an honest event can also be made and broadcast. Each client can then verify which is honest.
 * The recovery keys do not need to be verified, all key migration verification is handled by the client.
 * For denial-of-service mitigation, a relay MAY REQUIRE proof-of-work, a small fee or another solution to continue to write Key Migration and Revocation Events. This SHOULD BE determined by the terms agreed upon by the client and relay.
