@@ -102,6 +102,7 @@ This is an event that is non-replaceable. It will revoke a pubkey and all events
 * If a `new-key` IS NOT provided, the `key-revocation` tag MUST BE included, this is also to help prevent mistakes.
 * Clients SHOULD implement a means to verify that users are aware of the account and behaviors of the event to avoid accidental broadcast. Please see the External References for UX guidance.
 * A NIP-03 timestamp attestation MAY BE included for this event and clients can use this to help with verification.
+* Clients MAY use a NIP-18 Generic Repost with a copy of the event in the content to help relay distribution.
 
 ### Event Handling for Clients
 
