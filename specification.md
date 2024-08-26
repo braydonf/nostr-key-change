@@ -22,7 +22,7 @@ There are four new events introduced:
 
 This is an event that is non-replaceable and ONLY ONE can be considered valid. Clients SHOULD implement a means to verify that users are aware of these conditions to avoid accidental broadcast of the event. Every client is individually responsible for storing a copy of this event and SHOULD ALSO store it on relays, signed via attestations. Any future events of this type MUST NOT be replaced automatically as it could be from an attacker due to a compromised or stolen private key. Clients MAY PROVIDE a manual verification process that can be verified through a side-channel to be able to independently replace the setup event. The recovery setup event can assign anywhere from 1 to `n` recovery keys assigned to be able to sign the change and revocation event. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
 
-```js
+```json
 {
   "kind": <x>,
   "pubkey": "<user-pubkey>",
@@ -33,8 +33,7 @@ This is an event that is non-replaceable and ONLY ONE can be considered valid. C
     ["threshold", "2"],
     ["recovery-key-setup"]
   ],
-  "content": "",
-  // ...
+  "content": ""
 }
 ```
 
@@ -49,7 +48,7 @@ This is an event that is non-replaceable and ONLY ONE can be considered valid. C
 
 This is an event that is non-replaceable. This is a means to select a valid and verified Recovery Keys Setup Event for another pubkey. The attestation can be either private or public. By making a public attestation, others in the network can see that you're able to verify the recovery keys for a profile; this can help built a robust fault-tolerant social graph. The default option SHOULD BE private. The primary purpose for this event is for clients to be able to verify the recovery keys for a Key Migration and Revocation event (see below).
 
-```js
+```json
 {
   "kind": <x>,
   "pubkey": "<user-pubkey>",
@@ -57,8 +56,7 @@ This is an event that is non-replaceable. This is a means to select a valid and 
     ["p", "<pubkey-of-friend>"],
     ["recovery-key-attestation"]
   ],
-  "content": "<recovery-key-setup-event>",
-  // ...
+  "content": "<recovery-key-setup-event>"
 }
 ```
 
@@ -73,7 +71,7 @@ This is an event that is non-replaceable. This is a means to select a valid and 
 
 This is an event that is non-replaceable. It will revoke a pubkey and all events for the key will be deleted. It will also provide a key migration for clients and users to accept or reject the key migration based on various means of verification including; recovery keys, social graph and external identities.
 
-```js
+```json
 {
   "kind": <x>,
   "pubkey": "<user-pubkey>",
@@ -82,8 +80,7 @@ This is an event that is non-replaceable. It will revoke a pubkey and all events
     ["e", "<event-id-of-recovery-key-setup>"],
     ["key-migration-and-revocation"]
   ],
-  "content": "<recovery-key-signatures-and-optional-comment>",
-  // ...
+  "content": "<recovery-key-signatures-and-optional-comment>"
 }
 ```
 
@@ -99,33 +96,33 @@ This is an event that is non-replaceable. It will revoke a pubkey and all events
 For a client, this event is both a revocation and a migration. The revocation MUST BE handled by verifying only the event signature and MUST BE automatic. The migration, on the other hand, MUST BE presented and verified by the user to accept or reject the migration key change. Please see the External Refereces section for additional guidance for UX design.
 
 #### Behaviors
-- Verification of the event and NOT the recovery keys determines if a revocation is valid.
-- Upon a valid key revocation:
-  - All events MUST DISPLAY a warning that the event is from a revoked pubkey.
-  - All events of a revoked pubkey SHOULD BE deleted, this MAY BE after a duration of time depending on the client or preferences.
-- A user interface MUST DISPLAY to the user an option to accept or reject a key migration. This SHOULD INCLUDE the recovery keys and how many have valid signatures, social graph verification of those that they follow that are now following the new key, and an other side-channel pinned identities such as with NIP-05. At least one method MUST BE provided. The existence of a Recovery Keys Setup Event is NOT REQUIRED to be able to handle a Key Migration and Revocation Event.
-- Upon a valid key migration:
-  - The old key MUST BE unfollowed and the new key MUST be followed.
-  - The old key MUST BE stored, with a Key Migration Attestation Event, for future reference to able to block and delete future events from the old key.
-  - The old key MAY BE added to other mute lists.
+* Verification of the event and NOT the recovery keys determines if a revocation is valid.
+* Upon a valid key revocation:
+  * All events MUST DISPLAY a warning that the event is from a revoked pubkey.
+  * All events of a revoked pubkey SHOULD BE deleted, this MAY BE after a duration of time depending on the client or preferences.
+* A user interface MUST DISPLAY to the user an option to accept or reject a key migration. This SHOULD INCLUDE the recovery keys and how many have valid signatures, social graph verification of those that they follow that are now following the new key, and an other side-channel pinned identities such as with NIP-05. At least one method MUST BE provided. The existence of a Recovery Keys Setup Event is NOT REQUIRED to be able to handle a Key Migration and Revocation Event.
+* Upon a valid key migration:
+  * The old key MUST BE unfollowed and the new key MUST be followed.
+  * The old key MUST BE stored, with a Key Migration Attestation Event, for future reference to able to block and delete future events from the old key.
+  * The old key MAY BE added to other mute lists.
 
 ### Event Handling for Relays
 
 For a relay, this event is primarily a key revocation, and storing the necessary information for clients to verify the key migration.
 
 #### Behaviors
-- Verification of the event and NOT the recovery keys determines if a revocation is valid.
-- Upon a valid key revocation:
-  - All events of a revoked pubkey MUST BE deleted. The timeframe that events are deleted MAY BE defined by an agreed upon terms between client and relay.
-  - All future events, as determined when it was received and not the date on the event, of a revoked pubkey MUST BE rejected except for another Key Migration and Revocation event. This is to ensure that if a key is compromised and a fraudulent event is made, an honest event can also be made and broadcast. Each client can then verify which is honest.
-- The recovery keys do not need to be verified, all key migration verification is handled by the client.
-- For denial-of-service mitigation, a relay MAY REQUIRE proof-of-work, a small fee or another solution to continue to write Key Migration and Revocation Events. This SHOULD BE determined by the terms agreed upon by the client and relay.
+* Verification of the event and NOT the recovery keys determines if a revocation is valid.
+* Upon a valid key revocation:
+  * All events of a revoked pubkey MUST BE deleted. The timeframe that events are deleted MAY BE defined by an agreed upon terms between client and relay.
+  * All future events, as determined when it was received and not the date on the event, of a revoked pubkey MUST BE rejected except for another Key Migration and Revocation event. This is to ensure that if a key is compromised and a fraudulent event is made, an honest event can also be made and broadcast. Each client can then verify which is honest.
+* The recovery keys do not need to be verified, all key migration verification is handled by the client.
+* For denial-of-service mitigation, a relay MAY REQUIRE proof-of-work, a small fee or another solution to continue to write Key Migration and Revocation Events. This SHOULD BE determined by the terms agreed upon by the client and relay.
 
 ## Key Migration Attestation Event
 
 This is an event that is non-replaceable and MUST EITHER be unencrypted and public or encrypted and private. The default SHOULD BE private. The primary purpose of this event is for each client to keep track of old keys that should be blocked, filtered and muted. The secondary purpose of this event is to signal to other clients of a successful path for key migration.
 
-```js
+```json
   "kind": <x>,
   "pubkey": "<user-pubkey>",
   "tags": [
@@ -134,8 +131,7 @@ This is an event that is non-replaceable and MUST EITHER be unencrypted and publ
     ["new-key", "<new-pubkey>"],
     ["key-migration-attestation"]
   ],
-  "content": "",
-  // ...
+  "content": ""
 ```
 
 * For a public attestation, the tags `p`, `e` and `new-key` MUST BE included.
