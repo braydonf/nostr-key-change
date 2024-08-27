@@ -153,3 +153,5 @@ This is an event that is non-replaceable and MUST EITHER be unencrypted and publ
 * A NIP-03 timestamp attestation MAY BE included for this event and clients can use this to help with verification.
 
 ## External References
+
+- [UX Storyboard](/ux-storyboard.pdf)
