@@ -11281,9 +11281,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3057589"
-     inkscape:cx="490.51936"
-     inkscape:cy="320.12036"
+     inkscape:zoom="1.2346263"
+     inkscape:cx="475.04253"
+     inkscape:cy="1414.1931"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -11291,11 +11291,11 @@
      units="in"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="3840"
+     inkscape:window-width="1920"
      inkscape:window-height="2096"
      inkscape:window-x="1920"
      inkscape:window-y="27"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
@@ -11451,20 +11451,26 @@
        inkscape:tile-w="62.66124"
        inkscape:tile-h="101.94838"
        inkscape:tile-x0="9.9583549"
-       inkscape:tile-y0="9.8623199" />
+       inkscape:tile-y0="9.8623199"
+       inkscape:export-filename="./key-migration-and-revocation-ux.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.243616;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
        id="rect2610"
        width="60.817444"
        height="99.101303"
-       x="3652.0232"
-       y="10.717957"
+       x="3517.0334"
+       y="143.64009"
        inkscape:tile-cx="41.288975"
        inkscape:tile-cy="60.83651"
        inkscape:tile-w="62.66124"
        inkscape:tile-h="101.94838"
        inkscape:tile-x0="9.9583549"
-       inkscape:tile-y0="9.8623199" />
+       inkscape:tile-y0="9.8623199"
+       inkscape:export-filename="./recovery-keys-attestation-ux.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.243616;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
        id="rect2606"
@@ -11477,7 +11483,10 @@
        inkscape:tile-w="62.66124"
        inkscape:tile-h="101.94838"
        inkscape:tile-x0="9.9583549"
-       inkscape:tile-y0="9.8623199" />
+       inkscape:tile-y0="9.8623199"
+       inkscape:export-filename="./key-migration-attestation-ux.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <rect
        style="fill:#555555;fill-opacity:0.200556;stroke:none;stroke-width:0.11517;stroke-dasharray:none;stroke-opacity:0.487224;paint-order:stroke fill markers"
        id="rect2990"
@@ -11960,7 +11969,10 @@
        inkscape:tile-w="62.66124"
        inkscape:tile-h="101.94838"
        inkscape:tile-x0="9.9583549"
-       inkscape:tile-y0="9.8623199" />
+       inkscape:tile-y0="9.8623199"
+       inkscape:export-filename="recovery-keys-setup-ux.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
        id="text1111"
@@ -11968,10 +11980,10 @@
        transform="translate(45.318729,-19.977562)"><tspan
          x="11.371094"
          y="138.66452"
-         id="tspan23"><tspan
+         id="tspan2"><tspan
            dx="0 2.6389449 2.1583536 1.3832068 0.98013067 1.2419577 0.9801302 1.9395895 2.1617994 1.3832064 0.9801302 2.1583548 2.2358685"
            style="font-size:3.52778px"
-           id="tspan22">Notifications</tspan></tspan></text>
+           id="tspan1">Notifications</tspan></tspan></text>
     <g
        id="g3564"
        transform="translate(67.469855)" />
@@ -12061,7 +12073,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan24">Notes</tspan></text>
+         id="tspan3">Notes</tspan></text>
     <text
        xml:space="preserve"
        id="text1468-9-2-9-3-3"
@@ -12071,7 +12083,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan30">About</tspan></text>
+         id="tspan4">About</tspan></text>
     <path
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.100897;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 3517.0451,495.57563 h 60.8994"
@@ -12096,7 +12108,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan33">Unfollow</tspan></text>
+         id="tspan5">Unfollow</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect2502-9-3"
@@ -12111,7 +12123,7 @@
        transform="matrix(4.580314,0,0,4.580314,3163.7655,-80.60247)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan34">⚠</tspan></text>
+         id="tspan6">⚠</tspan></text>
     <text
        xml:space="preserve"
        id="text2708"
@@ -12119,20 +12131,20 @@
        transform="translate(3453.0151,328.24761)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan47"><tspan
+         id="tspan8"><tspan
            style="font-weight:bold"
-           id="tspan39">The keys for this account have </tspan></tspan><tspan
+           id="tspan7">The keys for this account have </tspan></tspan><tspan
          x="77.679688"
          y="118.26273"
-         id="tspan50"><tspan
+         id="tspan10"><tspan
    style="font-weight:bold"
-   id="tspan49">changed. </tspan>Please review and accept </tspan><tspan
+   id="tspan9">changed. </tspan>Please review and accept </tspan><tspan
          x="77.679688"
          y="120.90857"
-         id="tspan51">the changes to continue to follow this </tspan><tspan
+         id="tspan11">the changes to continue to follow this </tspan><tspan
          x="77.679688"
          y="123.55441"
-         id="tspan52">account.</tspan></text>
+         id="tspan12">account.</tspan></text>
     <rect
        style="fill:#f9f9f9;fill-opacity:0.819987;stroke:#000000;stroke-width:0.126479;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect870-6"
@@ -12149,7 +12161,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan53">Start Key Migration Review</tspan></text>
+         id="tspan13">Start Key Migration Review</tspan></text>
     <g
        id="use2984"
        transform="translate(3574.5628,287.55345)">
@@ -12195,7 +12207,7 @@
        transform="translate(3588.233,317.37749)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan57">Key Migration Review</tspan></text>
+         id="tspan14">Key Migration Review</tspan></text>
     <text
        xml:space="preserve"
        id="text2986"
@@ -12203,7 +12215,7 @@
        transform="matrix(1.0304482,0,0,1.0304482,3587.633,330.61996)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan62">Gurney Halleck</tspan></text>
+         id="tspan15">Gurney Halleck</tspan></text>
     <text
        xml:space="preserve"
        id="text2990"
@@ -12211,7 +12223,7 @@
        transform="matrix(1.1935213,0,0,1.1935213,3577.2584,311.94705)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan68">GH</tspan></text>
+         id="tspan16">GH</tspan></text>
     <text
        xml:space="preserve"
        id="text2992"
@@ -12219,7 +12231,7 @@
        transform="translate(3509.9265,328.05863)"><tspan
          x="77.679688"
          y="115.92902"
-         id="tspan69">Account</tspan></text>
+         id="tspan17">Account</tspan></text>
     <circle
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.122;stroke-dasharray:none;stroke-opacity:0.487224;paint-order:stroke fill markers"
        id="path2993"
@@ -12238,7 +12250,7 @@
        transform="translate(3510.0956,346.90887)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan70">Follows</tspan></text>
+         id="tspan18">Follows</tspan></text>
     <text
        xml:space="preserve"
        id="text2995"
@@ -12246,10 +12258,10 @@
        transform="translate(3510.313,350.30529)"><tspan
          x="77.679688"
          y="114.99264"
-         id="tspan71">These accounts that you follow have verified the new keys </tspan><tspan
+         id="tspan19">These accounts that you follow have verified the new keys </tspan><tspan
          x="77.679688"
          y="116.75653"
-         id="tspan72">for this account.</tspan></text>
+         id="tspan20">for this account.</tspan></text>
     <text
        xml:space="preserve"
        id="text2997"
@@ -12257,11 +12269,11 @@
        transform="translate(3520.5462,355.11756)"><tspan
          x="77.679688"
          y="116.89227"
-         id="tspan73">Paul Atreides
+         id="tspan21">Paul Atreides
 </tspan><tspan
          x="77.679688"
          y="122.27214"
-         id="tspan74">Lady Jessica
+         id="tspan22">Lady Jessica
 </tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:0.676708;stroke:#000000;stroke-width:0.076881;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -12295,15 +12307,15 @@
        y="0"><tspan
          x="97.013051"
          y="116.89227"
-         id="tspan76"><tspan
+         id="tspan24"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan75">PA
+           id="tspan23">PA
 </tspan></tspan><tspan
          x="97.340335"
          y="122.27214"
-         id="tspan78"><tspan
+         id="tspan26"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan77">LJ</tspan></tspan></text>
+           id="tspan25">LJ</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text3006"
@@ -12311,7 +12323,7 @@
        transform="translate(3510.0956,367.39378)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan79">Key Change</tspan></text>
+         id="tspan27">Key Change</tspan></text>
     <text
        xml:space="preserve"
        id="text3007"
@@ -12319,7 +12331,7 @@
        transform="translate(3510.1598,382.40926)"><tspan
          x="77.679688"
          y="114.99264"
-         id="tspan80">Previous public key</tspan></text>
+         id="tspan28">Previous public key</tspan></text>
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.086753;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect3009"
@@ -12336,7 +12348,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan81">Accept Changes</tspan></text>
+         id="tspan29">Accept Changes</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0874898;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect3011"
@@ -12353,7 +12365,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan82">Reject Changes</tspan></text>
+         id="tspan30">Reject Changes</tspan></text>
     <circle
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.122;stroke-dasharray:none;stroke-opacity:0.487224;paint-order:stroke fill markers"
        id="circle3012"
@@ -12372,11 +12384,11 @@
        transform="translate(3546.7687,355.11756)"><tspan
          x="77.679688"
          y="116.89227"
-         id="tspan83">Leto I Atreides
+         id="tspan31">Leto I Atreides
 </tspan><tspan
          x="77.679688"
          y="122.27214"
-         id="tspan84">Duncan Idaho</tspan></text>
+         id="tspan32">Duncan Idaho</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:0.676708;stroke:#000000;stroke-width:0.076881;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle3013"
@@ -12409,15 +12421,15 @@
        y="0"><tspan
          x="96.976877"
          y="116.89227"
-         id="tspan86"><tspan
+         id="tspan34"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan85">LA
+           id="tspan33">LA
 </tspan></tspan><tspan
          x="97.152577"
          y="122.27214"
-         id="tspan88"><tspan
+         id="tspan36"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan87">DI</tspan></tspan></text>
+           id="tspan35">DI</tspan></tspan></text>
     <g
        id="g3028"
        transform="translate(-68.10603,416.24166)">
@@ -12486,7 +12498,7 @@
        transform="translate(3510.2399,376.22411)"><tspan
          x="77.679688"
          y="114.99264"
-         id="tspan89">3 of 5 of the recovery keys have signed the request.</tspan></text>
+         id="tspan37">3 of 5 of the recovery keys have signed the request.</tspan></text>
     <text
        xml:space="preserve"
        id="text3032"
@@ -12494,7 +12506,7 @@
        transform="translate(3510.1048,379.10805)"><tspan
          x="77.679688"
          y="114.99264"
-         id="tspan90">Recovery key birthdate: 2/20/2024</tspan></text>
+         id="tspan38">Recovery key birthdate: 2/20/2024</tspan></text>
     <text
        xml:space="preserve"
        id="text3033"
@@ -12502,7 +12514,7 @@
        transform="translate(3510.221,385.68845)"><tspan
          x="77.679688"
          y="114.99264"
-         id="tspan91">New public key</tspan></text>
+         id="tspan39">New public key</tspan></text>
     <rect
        style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.129879;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect3034"
@@ -12524,7 +12536,7 @@
        transform="translate(3510.221,389.73808)"><tspan
          x="77.679688"
          y="114.99264"
-         id="tspan92">Message</tspan></text>
+         id="tspan40">Message</tspan></text>
     <rect
        style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.128909;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect3037"
@@ -12539,7 +12551,7 @@
        transform="translate(3511.5973,393.16558)"><tspan
          x="77.679688"
          y="114.99264"
-         id="tspan93">Vladimir Harkonnen has compromised my previous keys!</tspan></text>
+         id="tspan41">Vladimir Harkonnen has compromised my previous keys!</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.126;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="path3038-4"
@@ -12553,7 +12565,7 @@
        transform="matrix(1.0304482,0,0,1.0304482,3518.2114,357.97387)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan94">Gurney Halleck</tspan></text>
+         id="tspan42">Gurney Halleck</tspan></text>
     <text
        xml:space="preserve"
        id="text2990-4"
@@ -12561,7 +12573,7 @@
        transform="matrix(1.1935213,0,0,1.1935213,3507.7922,339.02984)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan95">GH</tspan></text>
+         id="tspan43">GH</tspan></text>
     <g
        id="use37"
        transform="translate(3642.2626,154.87427)">
@@ -12607,7 +12619,7 @@
        transform="translate(3594.1998,184.64581)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan96">Key Migration</tspan></text>
+         id="tspan44">Key Migration</tspan></text>
     <g
        id="use515"
        transform="translate(3574.7732,154.87427)">
@@ -12653,7 +12665,7 @@
        transform="translate(3521.7454,-102.34122)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan97">Recovery Keys Setup</tspan></text>
+         id="tspan45">Recovery Keys Setup</tspan></text>
     <g
        id="use521"
        transform="translate(3507.0636,-132.18946)">
@@ -12697,8 +12709,8 @@
        id="rect561"
        width="57.678318"
        height="45.882431"
-       x="3654.0291"
-       y="39.945465" />
+       x="3519.0393"
+       y="172.8676" />
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0977581;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect516"
@@ -12713,7 +12725,7 @@
        transform="matrix(4.580314,0,0,4.580314,3298.9825,-213.26923)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan98">⚠</tspan></text>
+         id="tspan46">⚠</tspan></text>
     <text
        xml:space="preserve"
        id="text525"
@@ -12721,20 +12733,20 @@
        transform="translate(3588.0313,195.46585)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan100"><tspan
+         id="tspan48"><tspan
            style="font-weight:bold"
-           id="tspan99">This is a one-time irreversible </tspan></tspan><tspan
+           id="tspan47">This is a one-time irreversible </tspan></tspan><tspan
          x="77.679688"
          y="118.26273"
-         id="tspan102"><tspan
+         id="tspan50"><tspan
    style="font-weight:bold"
-   id="tspan101">action. </tspan>Please review all changes </tspan><tspan
+   id="tspan49">action. </tspan>Please review all changes </tspan><tspan
          x="77.679688"
          y="120.90857"
-         id="tspan103">before broadcasting these changes to </tspan><tspan
+         id="tspan51">before broadcasting these changes to </tspan><tspan
          x="77.679688"
          y="123.55441"
-         id="tspan104">your network.</tspan></text>
+         id="tspan52">your network.</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.126;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle540"
@@ -12748,7 +12760,7 @@
        transform="matrix(1.0304482,0,0,1.0304482,3586.0754,192.85839)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan105">Gurney Halleck</tspan></text>
+         id="tspan53">Gurney Halleck</tspan></text>
     <text
        xml:space="preserve"
        id="text558"
@@ -12756,7 +12768,7 @@
        transform="matrix(1.1935213,0,0,1.1935213,3575.5573,173.97282)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan106">GH</tspan></text>
+         id="tspan54">GH</tspan></text>
     <text
        xml:space="preserve"
        id="text699"
@@ -12764,9 +12776,9 @@
        transform="translate(3510.5022,207.61681)"><tspan
          x="77.679688"
          y="115.92902"
-         id="tspan108"><tspan
+         id="tspan56"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan107">Old Key</tspan></tspan></text>
+           id="tspan55">Old Key</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text722"
@@ -12774,9 +12786,9 @@
        transform="translate(3510.392,220.52852)"><tspan
          x="77.679688"
          y="115.92902"
-         id="tspan110"><tspan
+         id="tspan58"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan109">New Key</tspan></tspan></text>
+           id="tspan57">New Key</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text742"
@@ -12784,9 +12796,9 @@
        transform="translate(3510.3,232.89553)"><tspan
          x="77.679688"
          y="115.92902"
-         id="tspan112"><tspan
+         id="tspan60"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan111">Message</tspan></tspan></text>
+           id="tspan59">Message</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text754"
@@ -12794,13 +12806,13 @@
        transform="translate(3510.4181,245.49072)"><tspan
          x="77.679688"
          y="115.92902"
-         id="tspan116"><tspan
+         id="tspan64"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan113">Signatures (3 </tspan><tspan
+           id="tspan61">Signatures (3 </tspan><tspan
            style="font-size:1.76389px;-inkscape-font-specification:sans-serif"
-           id="tspan114">of</tspan><tspan
+           id="tspan62">of</tspan><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan115"> 5)</tspan></tspan></text>
+           id="tspan63"> 5)</tspan></tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.125133;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect774"
@@ -12817,7 +12829,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan117">Review Changes</tspan></text>
+         id="tspan65">Review Changes</tspan></text>
     <text
        xml:space="preserve"
        id="text777"
@@ -12825,7 +12837,7 @@
        transform="translate(3662.9193,184.72251)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan118">Key Migration</tspan></text>
+         id="tspan66">Key Migration</tspan></text>
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0937365;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect778"
@@ -12842,7 +12854,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan119">Broadcast Message</tspan></text>
+         id="tspan67">Broadcast Message</tspan></text>
     <path
        d="m 3683.0294,392.05289 v -0.7873 m 0,0 h 0.3937 l 0.9841,0.59048 v -1.96824 l -0.9841,0.59048 h -0.5905 c -0.2174,0 -0.3937,0.17623 -0.3937,0.39364 v 0 c 0,0.21741 0.1763,0.39364 0.3937,0.39364 z m 2.1651,-1.37776 0.3936,-0.39364 m -0.3936,2.36188 0.3936,0.39364 m 0,-1.37776 h 0.3937"
        stroke="#000000"
@@ -12864,7 +12876,7 @@
        transform="matrix(1.0304482,0,0,1.0304482,3653.6026,208.52354)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan120">Gurney Halleck</tspan></text>
+         id="tspan68">Gurney Halleck</tspan></text>
     <text
        xml:space="preserve"
        id="text783"
@@ -12872,7 +12884,7 @@
        transform="matrix(1.1935213,0,0,1.1935213,3643.1376,189.62397)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan121">GH</tspan></text>
+         id="tspan69">GH</tspan></text>
     <text
        xml:space="preserve"
        id="text784"
@@ -12880,7 +12892,7 @@
        transform="translate(3577.5109,222.19546)"><tspan
          x="77.679688"
          y="115.30477"
-         id="tspan122">Old Key</tspan></text>
+         id="tspan70">Old Key</tspan></text>
     <text
        xml:space="preserve"
        id="text785"
@@ -12888,7 +12900,7 @@
        transform="translate(3577.5376,231.72565)"><tspan
          x="77.679688"
          y="115.30477"
-         id="tspan123">New Key</tspan></text>
+         id="tspan71">New Key</tspan></text>
     <text
        xml:space="preserve"
        id="text786"
@@ -12896,7 +12908,7 @@
        transform="translate(3577.3099,242.19513)"><tspan
          x="77.679688"
          y="115.30477"
-         id="tspan124">Message</tspan></text>
+         id="tspan72">Message</tspan></text>
     <text
        xml:space="preserve"
        id="text787"
@@ -12904,7 +12916,7 @@
        transform="translate(3577.3382,250.18373)"><tspan
          x="77.679688"
          y="115.30477"
-         id="tspan125">Signatures</tspan></text>
+         id="tspan73">Signatures</tspan></text>
     <rect
        style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:0.082643;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect789"
@@ -12921,7 +12933,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan126">Edit</tspan></text>
+         id="tspan74">Edit</tspan></text>
     <text
        xml:space="preserve"
        id="text790"
@@ -12929,7 +12941,7 @@
        transform="translate(3577.0906,258.15687)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan127">Confirmation</tspan></text>
+         id="tspan75">Confirmation</tspan></text>
     <text
        xml:space="preserve"
        id="text793"
@@ -12937,10 +12949,10 @@
        transform="translate(3577.095,261.60451)"><tspan
          x="77.679688"
          y="115.30477"
-         id="tspan128">Please type the name of this account to broadcast </tspan><tspan
+         id="tspan76">Please type the name of this account to broadcast </tspan><tspan
          x="77.679688"
          y="117.50963"
-         id="tspan129">this message.</tspan></text>
+         id="tspan77">this message.</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.12;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect795"
@@ -12961,7 +12973,7 @@
        transform="matrix(1.0304482,0,0,1.0304482,3518.1361,-94.576901)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan130">Gurney Halleck</tspan></text>
+         id="tspan78">Gurney Halleck</tspan></text>
     <text
        xml:space="preserve"
        id="text801"
@@ -12969,7 +12981,7 @@
        transform="matrix(1.1935213,0,0,1.1935213,3507.6711,-113.47648)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan131">GH</tspan></text>
+         id="tspan79">GH</tspan></text>
     <text
        xml:space="preserve"
        id="text3"
@@ -12977,19 +12989,19 @@
        transform="translate(3524.9277,207.61681)"><tspan
          x="77.679688"
          y="115.69046"
-         id="tspan133"><tspan
+         id="tspan81"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan132">npub8235ec227f7c5b370900a5a61</tspan></tspan><tspan
+           id="tspan80">npub8235ec227f7c5b370900a5a61</tspan></tspan><tspan
          x="77.679688"
          y="118.40986"
-         id="tspan135"><tspan
+         id="tspan83"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan134">6dbb577c5edb0c051ae48c7495def</tspan></tspan><tspan
+           id="tspan82">6dbb577c5edb0c051ae48c7495def</tspan></tspan><tspan
          x="77.679688"
          y="121.12926"
-         id="tspan137"><tspan
+         id="tspan85"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan136">bc62f64de6</tspan></tspan></text>
+           id="tspan84">bc62f64de6</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text7"
@@ -12997,19 +13009,19 @@
        transform="translate(3524.9277,220.2241)"><tspan
          x="77.679688"
          y="115.69046"
-         id="tspan139"><tspan
+         id="tspan87"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan138">npub3fbbfd7309fee9c8d5b93f59b</tspan></tspan><tspan
+           id="tspan86">npub3fbbfd7309fee9c8d5b93f59b</tspan></tspan><tspan
          x="77.679688"
          y="118.40986"
-         id="tspan141"><tspan
+         id="tspan89"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan140">c9096b8e700e4acb03618d867663d</tspan></tspan><tspan
+           id="tspan88">c9096b8e700e4acb03618d867663d</tspan></tspan><tspan
          x="77.679688"
          y="121.12926"
-         id="tspan143"><tspan
+         id="tspan91"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan142">dd2029eb7c</tspan></tspan></text>
+           id="tspan90">dd2029eb7c</tspan></tspan></text>
     <rect
        style="fill:#ececec;stroke:#777777;stroke-width:0.12;stroke-linejoin:round;paint-order:stroke fill markers"
        id="rect18"
@@ -13024,14 +13036,14 @@
        transform="translate(3525.9128,234.20015)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan145"><tspan
+         id="tspan93"><tspan
            style="font-family:Roboto;-inkscape-font-specification:Roboto"
-           id="tspan144">Vladimir Harkonnen has </tspan></tspan><tspan
+           id="tspan92">Vladimir Harkonnen has </tspan></tspan><tspan
          x="77.679688"
          y="118.28341"
-         id="tspan147"><tspan
+         id="tspan95"><tspan
            style="font-family:Roboto;-inkscape-font-specification:Roboto"
-           id="tspan146">compromised my previous keys!</tspan></tspan></text>
+           id="tspan94">compromised my previous keys!</tspan></tspan></text>
     <rect
        style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:0.125133;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect22"
@@ -13048,7 +13060,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan148">Add Signature</tspan></text>
+         id="tspan96">Add Signature</tspan></text>
     <text
        xml:space="preserve"
        id="text27"
@@ -13056,20 +13068,20 @@
        transform="translate(3510.068,258.9173)"><tspan
          x="77.679688"
          y="115.30477"
-         id="tspan150"><tspan
+         id="tspan98"><tspan
            style="font-weight:bold"
-           id="tspan149">Please add signatures to this key change </tspan></tspan><tspan
+           id="tspan97">Please add signatures to this key change </tspan></tspan><tspan
          x="77.679688"
          y="117.50963"
-         id="tspan152"><tspan
+         id="tspan100"><tspan
    style="font-weight:bold"
-   id="tspan151">message.</tspan> You can scan a QR code and sign with an </tspan><tspan
+   id="tspan99">message.</tspan> You can scan a QR code and sign with an </tspan><tspan
          x="77.679688"
          y="119.7145"
-         id="tspan153">external device, import a private key, or connect a </tspan><tspan
+         id="tspan101">external device, import a private key, or connect a </tspan><tspan
          x="77.679688"
          y="121.91936"
-         id="tspan154">hardware device to sign this message.</tspan></text>
+         id="tspan102">hardware device to sign this message.</tspan></text>
     <text
        xml:space="preserve"
        id="text33"
@@ -13077,19 +13089,19 @@
        transform="translate(3592.3921,221.98933)"><tspan
          x="77.679688"
          y="115.69046"
-         id="tspan156"><tspan
+         id="tspan104"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan155">npub8235ec227f7c5b370900a5a61</tspan></tspan><tspan
+           id="tspan103">npub8235ec227f7c5b370900a5a61</tspan></tspan><tspan
          x="77.679688"
          y="118.40986"
-         id="tspan158"><tspan
+         id="tspan106"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan157">6dbb577c5edb0c051ae48c7495def</tspan></tspan><tspan
+           id="tspan105">6dbb577c5edb0c051ae48c7495def</tspan></tspan><tspan
          x="77.679688"
          y="121.12926"
-         id="tspan160"><tspan
+         id="tspan108"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan159">bc62f64de6</tspan></tspan></text>
+           id="tspan107">bc62f64de6</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text34"
@@ -13097,19 +13109,19 @@
        transform="translate(3592.4988,231.50137)"><tspan
          x="77.679688"
          y="115.69046"
-         id="tspan162"><tspan
+         id="tspan110"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan161">npub3fbbfd7309fee9c8d5b93f59b</tspan></tspan><tspan
+           id="tspan109">npub3fbbfd7309fee9c8d5b93f59b</tspan></tspan><tspan
          x="77.679688"
          y="118.40986"
-         id="tspan164"><tspan
+         id="tspan112"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan163">c9096b8e700e4acb03618d867663d</tspan></tspan><tspan
+           id="tspan111">c9096b8e700e4acb03618d867663d</tspan></tspan><tspan
          x="77.679688"
          y="121.12926"
-         id="tspan166"><tspan
+         id="tspan114"><tspan
            style="font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-           id="tspan165">dd2029eb7c</tspan></tspan></text>
+           id="tspan113">dd2029eb7c</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text39"
@@ -13117,15 +13129,15 @@
        transform="translate(3592.9943,242.44373)"><tspan
          x="77.679688"
          y="115.30477"
-         id="tspan168"><tspan
+         id="tspan116"><tspan
            style="font-family:Roboto;-inkscape-font-specification:Roboto"
-           id="tspan167">Vladimir Harkonnen has compromised 
+           id="tspan115">Vladimir Harkonnen has compromised 
 </tspan></tspan><tspan
          x="77.679688"
          y="117.52686"
-         id="tspan170"><tspan
+         id="tspan118"><tspan
            style="font-family:Roboto;-inkscape-font-specification:Roboto"
-           id="tspan169">my previous keys!</tspan></tspan></text>
+           id="tspan117">my previous keys!</tspan></tspan></text>
     <g
        id="g42"
        transform="translate(13.805697,294.40468)">
@@ -13203,7 +13215,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan171">Review Changes</tspan></text>
+         id="tspan119">Review Changes</tspan></text>
     <text
        xml:space="preserve"
        id="text50"
@@ -13211,13 +13223,13 @@
        transform="translate(3442.1937,-79.545071)"><tspan
          x="77.679688"
          y="115.92902"
-         id="tspan175"><tspan
+         id="tspan123"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan172">Recovery Keys (3 </tspan><tspan
+           id="tspan120">Recovery Keys (3 </tspan><tspan
            style="font-size:1.76389px;-inkscape-font-specification:sans-serif"
-           id="tspan173">of</tspan><tspan
+           id="tspan121">of</tspan><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan174"> 5)</tspan></tspan></text>
+           id="tspan122"> 5)</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text51"
@@ -13227,7 +13239,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan176">Add Signature</tspan></text>
+         id="tspan124">Add Signature</tspan></text>
     <text
        xml:space="preserve"
        id="text53"
@@ -13235,18 +13247,18 @@
        transform="translate(3442.3006,-73.991401)"><tspan
          x="77.679688"
          y="115.30477"
-         id="tspan178"><tspan
+         id="tspan126"><tspan
    style="font-weight:bold"
-   id="tspan177">Please add backup recovery keys.</tspan> These keys will not </tspan><tspan
+   id="tspan125">Please add backup recovery keys.</tspan> These keys will not </tspan><tspan
          x="77.679688"
          y="117.50963"
-         id="tspan179">and should not be stored on this device. Please write down </tspan><tspan
+         id="tspan127">and should not be stored on this device. Please write down </tspan><tspan
          x="77.679688"
          y="119.7145"
-         id="tspan180">the 12-24 words for each key or use a hardware device to </tspan><tspan
+         id="tspan128">the 12-24 words for each key or use a hardware device to </tspan><tspan
          x="77.679688"
          y="121.91936"
-         id="tspan181">generate the keys.</tspan></text>
+         id="tspan129">generate the keys.</tspan></text>
     <rect
        style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:0.0445444;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect56"
@@ -13263,7 +13275,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.57991"
-         id="tspan182">Edit</tspan></text>
+         id="tspan130">Edit</tspan></text>
     <rect
        style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:0.125133;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect62"
@@ -13280,7 +13292,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan183">Add Recovery Key</tspan></text>
+         id="tspan131">Add Recovery Key</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.243616;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
        id="rect65"
@@ -13308,7 +13320,7 @@
        transform="translate(3589.4815,-102.34122)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan184">Recovery Keys Setup</tspan></text>
+         id="tspan132">Recovery Keys Setup</tspan></text>
     <g
        id="g201"
        transform="translate(3574.7997,-132.18946)">
@@ -13383,7 +13395,7 @@
        transform="matrix(4.580314,0,0,4.580314,3231.3451,-500.9937)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan185">⚠</tspan></text>
+         id="tspan133">⚠</tspan></text>
     <text
        xml:space="preserve"
        id="text207"
@@ -13391,17 +13403,17 @@
        transform="translate(3520.5947,-92.143641)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan188"><tspan
+         id="tspan136"><tspan
    style="font-weight:bold"
-   id="tspan186">This is an irreversible </tspan><tspan
+   id="tspan134">This is an irreversible </tspan><tspan
    style="font-weight:bold"
-   id="tspan187">action. </tspan>Please </tspan><tspan
+   id="tspan135">action. </tspan>Please </tspan><tspan
          x="77.679688"
          y="118.26273"
-         id="tspan189">review all changes before broadcasting </tspan><tspan
+         id="tspan137">review all changes before broadcasting </tspan><tspan
          x="77.679688"
          y="120.90857"
-         id="tspan190">these changes to your network.</tspan></text>
+         id="tspan138">these changes to your network.</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.126;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle207"
@@ -13415,7 +13427,7 @@
        transform="matrix(1.0304482,0,0,1.0304482,3585.4963,-81.134891)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan191">Gurney Halleck</tspan></text>
+         id="tspan139">Gurney Halleck</tspan></text>
     <text
        xml:space="preserve"
        id="text209"
@@ -13423,7 +13435,7 @@
        transform="matrix(1.1935213,0,0,1.1935213,3575.0313,-100.03447)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan192">GH</tspan></text>
+         id="tspan140">GH</tspan></text>
     <text
        xml:space="preserve"
        id="text224"
@@ -13431,13 +13443,13 @@
        transform="translate(3509.5152,-66.933251)"><tspan
          x="77.679688"
          y="115.92902"
-         id="tspan196"><tspan
+         id="tspan144"><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan193">Add Recovery Keys (3 </tspan><tspan
+           id="tspan141">Add Recovery Keys (3 </tspan><tspan
            style="font-size:1.76389px;-inkscape-font-specification:sans-serif"
-           id="tspan194">of</tspan><tspan
+           id="tspan142">of</tspan><tspan
            style="-inkscape-font-specification:sans-serif"
-           id="tspan195"> 5)</tspan></tspan></text>
+           id="tspan143"> 5)</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.243616;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
        id="rect294"
@@ -13496,10 +13508,10 @@
        transform="translate(3442.1779,246.68087)"><tspan
          x="77.679688"
          y="115.30477"
-         id="tspan197">There a 3 accounts that are ready to review. </tspan><tspan
+         id="tspan145">There a 3 accounts that are ready to review. </tspan><tspan
          x="77.679688"
          y="117.50963"
-         id="tspan198">and make attestations.</tspan></text>
+         id="tspan146">and make attestations.</tspan></text>
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0937365;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect417"
@@ -13516,7 +13528,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan199">Broadcast Message</tspan></text>
+         id="tspan147">Broadcast Message</tspan></text>
     <path
        d="m 3615.6238,104.88129 v -0.7873 m 0,0 h 0.3937 l 0.9841,0.59048 v -1.96824 l -0.9841,0.59048 h -0.5905 c -0.2174,0 -0.3937,0.17623 -0.3937,0.39364 v 0 c 0,0.21741 0.1763,0.39364 0.3937,0.39364 z m 2.1651,-1.37776 0.3936,-0.39364 m -0.3936,2.36188 0.3936,0.39364 m 0,-1.37776 h 0.3937"
        stroke="#000000"
@@ -13541,7 +13553,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan200">Edit</tspan></text>
+         id="tspan148">Edit</tspan></text>
     <text
        xml:space="preserve"
        id="text420"
@@ -13549,7 +13561,7 @@
        transform="translate(3509.6724,-26.036741)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan201">Confirmation</tspan></text>
+         id="tspan149">Confirmation</tspan></text>
     <text
        xml:space="preserve"
        id="text425"
@@ -13557,7 +13569,7 @@
        transform="translate(3509.7972,-22.822471)"><tspan
          x="77.679688"
          y="114.99264"
-         id="tspan202">Please type the name of this account to broadcast this message.</tspan></text>
+         id="tspan150">Please type the name of this account to broadcast this message.</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.12;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect425"
@@ -13570,8 +13582,8 @@
        id="rect429"
        width="60.817444"
        height="99.101303"
-       x="3584.6379"
-       y="134.48145"
+       x="3651.9441"
+       y="10.533731"
        inkscape:tile-cx="41.288975"
        inkscape:tile-cy="60.83651"
        inkscape:tile-w="62.66124"
@@ -13580,7 +13592,7 @@
        inkscape:tile-y0="9.8623199" />
     <g
        id="g433"
-       transform="translate(3574.7496,-8.5280414)">
+       transform="translate(3642.0558,-132.47576)">
       <g
          id="g431"
          transform="translate(0.70274,132.14825)">
@@ -13620,162 +13632,162 @@
        xml:space="preserve"
        id="text433"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect468);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="translate(3588.1819,21.306089)"><tspan
+       transform="translate(3655.4881,-102.64163)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan203">Recovery Key Overview</tspan></text>
+         id="tspan151">Recovery Key Overview</tspan></text>
     <text
        xml:space="preserve"
        id="text434"
        style="font-style:normal;font-weight:normal;font-size:2.46944px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect470);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="translate(3509.2899,80.048119)"><tspan
+       transform="translate(3576.5961,-43.899597)"><tspan
          x="77.679688"
          y="115.92902"
-         id="tspan204">My Follows</tspan></text>
+         id="tspan152">My Follows</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.0649922;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle439"
-       cx="3589.1938"
-       cy="213.29889"
+       cx="3656.5"
+       cy="89.351173"
        r="2.2853107" />
     <text
        xml:space="preserve"
        id="text440"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect474);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.53151664,0,0,0.53151664,3586.2695,151.10262)"><tspan
+       transform="matrix(0.53151664,0,0,0.53151664,3653.5757,27.154901)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan205">Paul Atreides </tspan></text>
+         id="tspan153">Paul Atreides </tspan></text>
     <text
        xml:space="preserve"
        id="text441"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect476);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.61563155,0,0,0.61563155,3581.1232,141.33654)"><tspan
+       transform="matrix(0.61563155,0,0,0.61563155,3648.4294,17.388821)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan206">PA</tspan></text>
+         id="tspan154">PA</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.0649922;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle441"
-       cx="3589.1938"
-       cy="206.52448"
+       cx="3656.5"
+       cy="82.576759"
        r="2.2853107" />
     <text
        xml:space="preserve"
        id="text442"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect477);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.53151664,0,0,0.53151664,3586.2695,144.3282)"><tspan
+       transform="matrix(0.53151664,0,0,0.53151664,3653.5757,20.380481)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan207">Duncan Idaho</tspan></text>
+         id="tspan155">Duncan Idaho</tspan></text>
     <text
        xml:space="preserve"
        id="text443"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect478);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.61563155,0,0,0.61563155,3581.2307,134.57188)"><tspan
+       transform="matrix(0.61563155,0,0,0.61563155,3648.5369,10.624161)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan208">DI</tspan></text>
+         id="tspan156">DI</tspan></text>
     <text
        xml:space="preserve"
        id="text444"
        style="font-style:normal;font-weight:normal;font-size:2.39874px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect481);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.66180616,0,0,0.66180616,3589.6546,121.63252)"
+       transform="matrix(0.66180616,0,0,0.66180616,3656.9608,-2.3151986)"
        x="5.4434299"
        y="0"><tspan
          x="23.755856"
          y="117.5774"
-         id="tspan210"><tspan
+         id="tspan158"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan209">Recovery 
+           id="tspan157">Recovery 
 </tspan></tspan><tspan
          x="26.898931"
          y="120.57583"
-         id="tspan212"><tspan
+         id="tspan160"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan211">Keys</tspan></tspan></text>
+           id="tspan159">Keys</tspan></tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.0649922;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle444"
-       cx="3589.1938"
-       cy="227.01096"
+       cx="3656.5"
+       cy="103.06324"
        r="2.2853107" />
     <text
        xml:space="preserve"
        id="text445"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect483);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.53151664,0,0,0.53151664,3586.2695,164.81468)"><tspan
+       transform="matrix(0.53151664,0,0,0.53151664,3653.5757,40.866961)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan213">Lady Jessica</tspan></text>
+         id="tspan161">Lady Jessica</tspan></text>
     <text
        xml:space="preserve"
        id="text446"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect487);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.61563155,0,0,0.61563155,3581.3833,155.0486)"><tspan
+       transform="matrix(0.61563155,0,0,0.61563155,3648.6895,31.100881)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan214">LJ</tspan></text>
+         id="tspan162">LJ</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.0649922;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle446"
-       cx="3589.1938"
-       cy="220.12204"
+       cx="3656.5"
+       cy="96.174324"
        r="2.2853107" />
     <text
        xml:space="preserve"
        id="text447"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect489);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.53151664,0,0,0.53151664,3586.2695,157.92575)"><tspan
+       transform="matrix(0.53151664,0,0,0.53151664,3653.5757,33.978031)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan215">Leto I Atreides</tspan></text>
+         id="tspan163">Leto I Atreides</tspan></text>
     <text
        xml:space="preserve"
        id="text448"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect494);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.61563155,0,0,0.61563155,3581.0543,148.16942)"><tspan
+       transform="matrix(0.61563155,0,0,0.61563155,3648.3605,24.221701)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan216">LA</tspan></text>
+         id="tspan164">LA</tspan></text>
     <text
        xml:space="preserve"
        id="text450"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect495);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.66180616,0,0,0.66180616,3599.0504,149.62346)"><tspan
+       transform="matrix(0.66180616,0,0,0.66180616,3666.3566,25.675741)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan218">3 <tspan
+         id="tspan166">3 <tspan
    style="font-size:1.86569px"
-   id="tspan217">of</tspan> 5</tspan></text>
+   id="tspan165">of</tspan> 5</tspan></text>
     <text
        xml:space="preserve"
        id="text451"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect499);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.66180616,0,0,0.66180616,3608.5182,149.78101)"><tspan
+       transform="matrix(0.66180616,0,0,0.66180616,3675.8244,25.833291)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan219">12</tspan></text>
+         id="tspan167">12</tspan></text>
     <rect
        style="fill:#999999;fill-opacity:0.819987;stroke:#000000;stroke-width:0.0425902;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect451"
        width="11.715919"
        height="3.6002789"
-       x="3631.531"
-       y="204.65744" />
+       x="3698.8372"
+       y="80.709724" />
     <text
        xml:space="preserve"
        id="text452"
        style="font-style:normal;font-weight:normal;font-size:2.40158px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect500);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3624.9892,120.79175)"
+       transform="matrix(0.73446945,0,0,0.73446945,3692.2954,-3.1559686)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.57991"
-         id="tspan220">Send DM</tspan></text>
+         id="tspan168">Send DM</tspan></text>
     <g
        id="g454"
-       transform="translate(59.10651,124.53533)">
+       transform="translate(126.41267,0.58761135)">
       <path
          style="fill:#1a1a1a;stroke-width:0.0801142;stroke-linejoin:round;paint-order:stroke fill markers"
          d="m 3559.9067,103.21797 c 0,0 -0.062,-0.37384 0.1378,-0.50582 0.1999,-0.13197 0.3151,-0.11679 0.5451,-0.11922 0.23,-0.002 0.4,0.006 0.5226,0.11772 0.1357,0.12412 0.1057,0.49908 0.1057,0.49908 z"
@@ -13808,51 +13820,51 @@
        xml:space="preserve"
        id="text454"
        style="font-style:normal;font-weight:normal;font-size:2.39874px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect509);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.66180616,0,0,0.66180616,3599.6864,121.70579)"
+       transform="matrix(0.66180616,0,0,0.66180616,3666.9926,-2.2419286)"
        x="4.9251475"
        y="0"><tspan
          x="25.094606"
          y="117.5774"
-         id="tspan222"><tspan
+         id="tspan170"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan221">Shared 
+           id="tspan169">Shared 
 </tspan></tspan><tspan
          x="24.690521"
          y="120.57583"
-         id="tspan224"><tspan
+         id="tspan172"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan223">Network</tspan></tspan></text>
+           id="tspan171">Network</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text455"
        style="font-style:normal;font-weight:normal;font-size:2.39874px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect512);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.66180616,0,0,0.66180616,3579.7679,123.91411)"><tspan
+       transform="matrix(0.66180616,0,0,0.66180616,3647.0741,-0.03360865)"><tspan
          x="11.371094"
          y="117.5774"
-         id="tspan225">Name</tspan></text>
+         id="tspan173">Name</tspan></text>
     <text
        xml:space="preserve"
        id="text457"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect514);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.66180616,0,0,0.66180616,3599.0504,142.78835)"><tspan
+       transform="matrix(0.66180616,0,0,0.66180616,3666.3566,18.840631)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan227">2 <tspan
+         id="tspan175">2 <tspan
    style="font-size:1.86569px"
-   id="tspan226">of</tspan> 3</tspan></text>
+   id="tspan174">of</tspan> 3</tspan></text>
     <text
        xml:space="preserve"
        id="text458"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:end;white-space:pre;shape-inside:url(#rect528);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.66180616,0,0,0.66180616,3586.786,142.90683)"
+       transform="matrix(0.66180616,0,0,0.66180616,3654.0922,18.959111)"
        x="3.0399499"
        y="0"><tspan
          x="44.434226"
          y="117.95208"
-         id="tspan228">17</tspan></text>
+         id="tspan176">17</tspan></text>
     <g
        id="g460"
-       transform="translate(59.17507,117.70022)">
+       transform="translate(126.48123,-6.2474986)">
       <path
          style="fill:#1a1a1a;stroke-width:0.0801142;stroke-linejoin:round;paint-order:stroke fill markers"
          d="m 3559.9067,103.21797 c 0,0 -0.062,-0.37384 0.1378,-0.50582 0.1999,-0.13197 0.3151,-0.11679 0.5451,-0.11922 0.23,-0.002 0.4,0.006 0.5226,0.11772 0.1357,0.12412 0.1057,0.49908 0.1057,0.49908 z"
@@ -13885,25 +13897,25 @@
        xml:space="preserve"
        id="text461"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect529);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.66180616,0,0,0.66180616,3599.0504,136.02528)"><tspan
+       transform="matrix(0.66180616,0,0,0.66180616,3666.3566,12.077561)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan230">2 <tspan
+         id="tspan178">2 <tspan
    style="font-size:1.86569px"
-   id="tspan229">of</tspan> 3</tspan></text>
+   id="tspan177">of</tspan> 3</tspan></text>
     <text
        xml:space="preserve"
        id="text462"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:end;white-space:pre;shape-inside:url(#rect530);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.66180616,0,0,0.66180616,3586.2464,136.10183)"
+       transform="matrix(0.66180616,0,0,0.66180616,3653.5526,12.154111)"
        x="1.4207563"
        y="0"><tspan
          x="46.229808"
          y="117.95208"
-         id="tspan231">6</tspan></text>
+         id="tspan179">6</tspan></text>
     <g
        id="g464"
-       transform="translate(58.65103,110.93715)">
+       transform="translate(125.95719,-13.010569)">
       <path
          style="fill:#1a1a1a;stroke-width:0.0801142;stroke-linejoin:round;paint-order:stroke fill markers"
          d="m 3559.9067,103.21797 c 0,0 -0.062,-0.37384 0.1378,-0.50582 0.1999,-0.13197 0.3151,-0.11679 0.5451,-0.11922 0.23,-0.002 0.4,0.006 0.5226,0.11772 0.1357,0.12412 0.1057,0.49908 0.1057,0.49908 z"
@@ -13936,23 +13948,23 @@
        xml:space="preserve"
        id="text464"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect532);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.66180616,0,0,0.66180616,3601.017,129.02223)"><tspan
+       transform="matrix(0.66180616,0,0,0.66180616,3668.3232,5.0745114)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan232">0</tspan></text>
+         id="tspan180">0</tspan></text>
     <text
        xml:space="preserve"
        id="text465"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;text-align:end;white-space:pre;shape-inside:url(#rect535);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.66180616,0,0,0.66180616,3586.2822,129.09878)"
+       transform="matrix(0.66180616,0,0,0.66180616,3653.5884,5.1510614)"
        x="1.3546106"
        y="0"><tspan
          x="46.229808"
          y="117.95208"
-         id="tspan233">3</tspan></text>
+         id="tspan181">3</tspan></text>
     <g
        id="g467"
-       transform="translate(58.51817,103.9341)">
+       transform="translate(125.82433,-20.013619)">
       <path
          style="fill:#1a1a1a;stroke-width:0.0801142;stroke-linejoin:round;paint-order:stroke fill markers"
          d="m 3559.9067,103.21797 c 0,0 -0.062,-0.37384 0.1378,-0.50582 0.1999,-0.13197 0.3151,-0.11679 0.5451,-0.11922 0.23,-0.002 0.4,0.006 0.5226,0.11772 0.1357,0.12412 0.1057,0.49908 0.1057,0.49908 z"
@@ -13983,148 +13995,148 @@
     </g>
     <path
        style="fill:none;stroke:#777777;stroke-width:0.1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3587.321,203.1097 h 55.9453"
+       d="m 3654.6272,79.161981 h 55.9453"
        id="path468"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.100986;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3651.9487,32.801639 h 60.8302"
+       d="m 3516.959,165.72378 h 60.8302"
        id="path535"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        id="text535"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect550);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3646.679,-50.435241)"
+       transform="matrix(0.73446945,0,0,0.73446945,3511.6893,82.486903)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan234">Notes</tspan></text>
+         id="tspan182">Notes</tspan></text>
     <text
        xml:space="preserve"
        id="text536"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect551);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3657.5842,-50.517991)"
+       transform="matrix(0.73446945,0,0,0.73446945,3522.5945,82.404153)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan235">About</tspan></text>
+         id="tspan183">About</tspan></text>
     <path
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.100897;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3651.9038,38.140039 h 60.8994"
+       d="m 3516.9141,171.06218 h 60.8994"
        id="path536"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3663.4178,32.813019 v 5.33558"
+       d="m 3528.4281,165.73516 v 5.33558"
        id="path537"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3674.7335,32.810759 v 5.31369"
+       d="m 3539.7438,165.7329 v 5.31369"
        id="path538"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        id="text538"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect552);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3691.3973,-59.525161)"
+       transform="matrix(0.73446945,0,0,0.73446945,3556.4076,73.396983)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan236">Unfollow</tspan></text>
+         id="tspan184">Unfollow</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect541"
        width="14.788559"
        height="3.6956863"
-       x="3696.5232"
-       y="24.397982" />
+       x="3561.5334"
+       y="157.32011" />
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.126;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle544"
-       cx="3658.7395"
-       cy="26.382692"
+       cx="3523.7498"
+       cy="159.30482"
        r="4.4305186" />
     <text
        xml:space="preserve"
        id="text544"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect554);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3653.0701,-94.196891)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3518.0804,38.725252)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan237">Gurney Halleck</tspan></text>
+         id="tspan185">Gurney Halleck</tspan></text>
     <text
        xml:space="preserve"
        id="text545"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect555);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.1935213,0,0,1.1935213,3642.6509,-113.14092)"><tspan
+       transform="matrix(1.1935213,0,0,1.1935213,3507.6612,19.781223)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan238">GH</tspan></text>
+         id="tspan186">GH</tspan></text>
     <text
        xml:space="preserve"
        id="text561"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect564);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3643.6865,-77.203871)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3508.6968,55.718272)"><tspan
          x="11.371094"
          y="117.27249"
-         id="tspan240"><tspan
+         id="tspan188"><tspan
    style="font-size:2.05412px"
-   id="tspan239">Gurney Halleck added recovery keys!  </tspan>
+   id="tspan187">Gurney Halleck added recovery keys!  </tspan>
 </tspan><tspan
          x="11.371094"
          y="119.53724"
-         id="tspan241">
+         id="tspan189">
 </tspan><tspan
          x="11.371094"
          y="121.67695"
-         id="tspan242">Save these public keys for greater security. You can </tspan><tspan
+         id="tspan190">Save these public keys for greater security. You can </tspan><tspan
          x="11.371094"
          y="123.81666"
-         id="tspan243">additional verify that these are Guney Halleck's keys by </tspan><tspan
+         id="tspan191">additional verify that these are Guney Halleck's keys by </tspan><tspan
          x="11.371094"
          y="125.95637"
-         id="tspan244">making a public attestation.</tspan></text>
+         id="tspan192">making a public attestation.</tspan></text>
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0808441;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect565"
        width="55.196926"
        height="5.0382581"
-       x="3655.3506"
-       y="79.524384" />
+       x="3520.3608"
+       y="212.44652" />
     <text
        xml:space="preserve"
        id="text565"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect568);display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3667.0254,-3.7578814)"
+       transform="matrix(0.73446945,0,0,0.73446945,3532.0357,129.16426)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan245">Review &amp; Save</tspan></text>
+         id="tspan193">Review &amp; Save</tspan></text>
     <rect
        style="fill:#999999;stroke:none;stroke-width:0.21311;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect601"
        width="7.8093648"
        height="1.9383377"
-       x="3680.5688"
-       y="51.023163" />
+       x="3545.5791"
+       y="183.9453" />
     <text
        xml:space="preserve"
        id="text603"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect610);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.87839554,0,0,0.87839554,3670.6931,-50.345611)"><tspan
+       transform="matrix(0.87839554,0,0,0.87839554,3535.7034,82.576533)"><tspan
          x="11.371094"
          y="116.96959"
-         id="tspan248"><tspan
+         id="tspan196"><tspan
            style="fill:#1a1a1a"
-           id="tspan246"> </tspan><tspan
+           id="tspan194"> </tspan><tspan
            style="font-size:1.36941px;fill:#1a1a1a"
-           id="tspan247">Learn More</tspan></tspan></text>
+           id="tspan195">Learn More</tspan></tspan></text>
     <rect
        style="fill:#cccccc;fill-opacity:1;stroke:#ffffff;stroke-width:0.129879;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect611"
@@ -14160,15 +14172,15 @@
        transform="translate(3509.8189,-36.147461)"><tspan
          x="77.679688"
          y="114.99264"
-         id="tspan249">Threshold: 3 of 5 keys are required to make signatures.</tspan></text>
+         id="tspan197">Threshold: 3 of 5 keys are required to make signatures.</tspan></text>
     <text
        xml:space="preserve"
        id="text627"
        style="font-style:normal;font-weight:normal;font-size:1.36941px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect627);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3643.7766,-47.341501)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3508.7869,85.580643)"><tspan
          x="11.371094"
          y="116.66669"
-         id="tspan250">Lady Jessica and 5 other of your followers also follow Gurney Halleck.</tspan></text>
+         id="tspan198">Lady Jessica and 5 other of your followers also follow Gurney Halleck.</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect628"
@@ -14183,7 +14195,7 @@
        transform="translate(3514.2258,-30.813681)"><tspan
          x="77.679688"
          y="115.6169"
-         id="tspan251">Add Timestamp (2,000 sats)</tspan></text>
+         id="tspan199">Add Timestamp (2,000 sats)</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.55;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 3588.5209,83.856689 0.7477,0.64391 1.5343,-2.52693"
@@ -14193,8 +14205,8 @@
        id="rect632"
        width="60.817444"
        height="99.101303"
-       x="3516.8555"
-       y="134.20724"
+       x="3584.5061"
+       y="143.5007"
        inkscape:tile-cx="41.288975"
        inkscape:tile-cy="60.83651"
        inkscape:tile-w="62.66124"
@@ -14206,160 +14218,160 @@
        id="rect634"
        width="57.500595"
        height="62.379696"
-       x="3518.8613"
-       y="163.43475" />
+       x="3586.512"
+       y="172.72821" />
     <rect
        style="fill:#e1e1e1;fill-opacity:1;stroke:#000000;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect775-5"
        width="6.3226347"
        height="2.9384766"
-       x="3520.6794"
-       y="213.26862"
+       x="3588.3301"
+       y="222.56207"
        rx="0"
        ry="1.4314108" />
     <circle
        style="fill:#4b4b4b;fill-opacity:1;stroke:none;stroke-width:0.135596;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="path775-6"
-       cx="3522.3433"
-       cy="214.7438"
+       cx="3589.9939"
+       cy="224.03726"
        r="1.071874" />
     <text
        xml:space="preserve"
        id="text775-2"
        style="font-style:normal;font-weight:normal;font-size:1.36941px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect780-5);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3512.2027,95.054469)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3579.8534,104.34793)"><tspan
          x="11.371094"
          y="116.66669"
-         id="tspan252">Off</tspan></text>
+         id="tspan200">Off</tspan></text>
     <text
        xml:space="preserve"
        id="text780-1"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect781-3);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3516.4977,94.884279)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3584.1484,104.17774)"><tspan
          x="11.371094"
          y="116.96959"
-         id="tspan253">Public</tspan></text>
+         id="tspan201">Public</tspan></text>
     <path
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.100986;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3516.7809,156.29093 h 60.8302"
+       d="m 3584.4316,165.58439 h 60.8302"
        id="path634"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        id="text634"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect683);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3511.5112,73.054049)"
+       transform="matrix(0.73446945,0,0,0.73446945,3579.1619,82.347509)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan254">Notes</tspan></text>
+         id="tspan202">Notes</tspan></text>
     <text
        xml:space="preserve"
        id="text635"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect684);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3522.4164,72.971299)"
+       transform="matrix(0.73446945,0,0,0.73446945,3590.0671,82.264759)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan255">About</tspan></text>
+         id="tspan203">About</tspan></text>
     <path
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.100897;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3516.736,161.62933 h 60.8994"
+       d="m 3584.3867,170.92279 h 60.8994"
        id="path635"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3528.25,156.30231 v 5.33558"
+       d="m 3595.9007,165.59577 v 5.33558"
        id="path636"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3539.5657,156.30005 v 5.31369"
+       d="m 3607.2164,165.59351 v 5.31369"
        id="path637"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        id="text637"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect686);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3556.2295,63.964129)"
+       transform="matrix(0.73446945,0,0,0.73446945,3623.8802,73.257586)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan256">Unfollow</tspan></text>
+         id="tspan204">Unfollow</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect647"
        width="14.788559"
        height="3.6956863"
-       x="3561.3555"
-       y="147.88727" />
+       x="3629.0061"
+       y="157.18073" />
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.126;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle647"
-       cx="3523.5718"
-       cy="149.87198"
+       cx="3591.2224"
+       cy="159.16544"
        r="4.4305186" />
     <text
        xml:space="preserve"
        id="text647"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect687);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3517.9023,29.292399)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3585.553,38.585856)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan257">Gurney Halleck</tspan></text>
+         id="tspan205">Gurney Halleck</tspan></text>
     <text
        xml:space="preserve"
        id="text648"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect688);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.1935213,0,0,1.1935213,3507.4831,10.348369)"><tspan
+       transform="matrix(1.1935213,0,0,1.1935213,3575.1338,19.641826)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan258">GH</tspan></text>
+         id="tspan206">GH</tspan></text>
     <text
        xml:space="preserve"
        id="text650"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect690);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3508.5311,46.479529)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3576.1818,55.772986)"><tspan
          x="11.371094"
          y="117.27249"
-         id="tspan260"><tspan
+         id="tspan208"><tspan
            style="font-size:2.05412px"
-           id="tspan259">Conflicting sets of recovery keys added!</tspan></tspan></text>
+           id="tspan207">Conflicting sets of recovery keys added!</tspan></tspan></text>
     <rect
        style="fill:#999999;stroke:none;stroke-width:0.21311;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
        id="rect679"
        width="7.8093648"
        height="1.9383377"
-       x="3567.2537"
-       y="172.49066" />
+       x="3634.9043"
+       y="181.78412" />
     <text
        xml:space="preserve"
        id="text680"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect694);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.87839554,0,0,0.87839554,3557.3646,71.193789)"><tspan
+       transform="matrix(0.87839554,0,0,0.87839554,3625.0153,80.487249)"><tspan
          x="11.371094"
          y="116.96959"
-         id="tspan263"><tspan
+         id="tspan211"><tspan
            style="fill:#1a1a1a"
-           id="tspan261"> </tspan><tspan
+           id="tspan209"> </tspan><tspan
            style="font-size:1.36941px;fill:#1a1a1a"
-           id="tspan262">Learn More</tspan></tspan></text>
+           id="tspan210">Learn More</tspan></tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3652.0093,18.729209 h 60.8332"
+       d="m 3517.0196,151.65135 h 60.8332"
        id="path715" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="path716"
-       cx="3656.4976"
-       cy="14.626039"
+       cx="3521.5078"
+       cy="147.54817"
        r="2.3720257" />
     <g
        id="g726"
-       transform="translate(3537.7333,-20.212081)">
+       transform="translate(3605.384,-10.918624)">
       <g
          id="g725"
          transform="translate(-29.90417,143.88395)">
@@ -14385,25 +14397,25 @@
     </g>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3516.8786,142.44229 h 60.8332"
+       d="m 3584.5293,151.73575 h 60.8332"
        id="path726" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.15;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle726"
-       cx="3521.3669"
-       cy="138.33914"
+       cx="3589.0176"
+       cy="147.6326"
        r="2.3720257" />
     <rect
        style="fill:#ececec;fill-opacity:1;stroke:#606060;stroke-width:0.933;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect747"
        width="48.049625"
        height="14.158338"
-       x="3524.8213"
-       y="176.69641"
+       x="3592.4719"
+       y="185.98987"
        ry="1.895587" />
     <g
        id="g738"
-       transform="translate(-129.26468,-150.32918)">
+       transform="translate(-61.614061,-141.03572)">
       <rect
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
          id="rect737"
@@ -14435,30 +14447,30 @@
          transform="matrix(1.0304482,0,0,1.0304482,3648.5626,209.39441)"><tspan
            x="11.371094"
            y="116.66669"
-           id="tspan264">November 7th, 2024 UTC</tspan></text>
+           id="tspan212">November 7th, 2024 UTC</tspan></text>
     </g>
     <text
        xml:space="preserve"
        id="text740"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect740);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3508.6378,51.164299)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3576.2885,60.457756)"><tspan
          x="11.371094"
          y="116.96959"
-         id="tspan265">This could indicate that this account may or may not be </tspan><tspan
+         id="tspan213">This could indicate that this account may or may not be </tspan><tspan
          x="11.371094"
          y="119.1093"
-         id="tspan266">compromised, please review to determine the truth.</tspan></text>
+         id="tspan214">compromised, please review to determine the truth.</tspan></text>
     <rect
        style="fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect750"
        width="47.771015"
        height="13.796846"
-       x="3524.8835"
-       y="192.83344"
+       x="3592.5342"
+       y="202.12689"
        ry="1.895587" />
     <g
        id="g752"
-       transform="translate(-129.39444,-134.11159)">
+       transform="translate(-61.743821,-124.81813)">
       <rect
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
          id="rect751"
@@ -14490,92 +14502,92 @@
          transform="matrix(1.0304482,0,0,1.0304482,3648.5626,209.39441)"><tspan
            x="11.371094"
            y="116.66669"
-           id="tspan267">December 12th, 2024 UTC</tspan></text>
+           id="tspan215">December 12th, 2024 UTC</tspan></text>
     </g>
     <text
        xml:space="preserve"
        id="text682"
        style="font-style:normal;font-weight:normal;font-size:1.36941px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect715);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3516.6218,67.692129)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3584.2725,76.985586)"><tspan
          x="11.371094"
          y="116.66669"
-         id="tspan268">Lady Jessica and 12 others that you follow have 
+         id="tspan216">Lady Jessica and 12 others that you follow have 
 </tspan><tspan
          x="11.371094"
          y="118.37845"
-         id="tspan269">attested to this key.</tspan></text>
+         id="tspan217">attested to this key.</tspan></text>
     <text
        xml:space="preserve"
        id="text753"
        style="font-style:normal;font-weight:normal;font-size:1.36941px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect753);display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3516.3362,84.812509)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3583.9869,94.105969)"><tspan
          x="11.371094"
          y="116.66669"
-         id="tspan270">None of your follows have attested to this key.</tspan></text>
+         id="tspan218">None of your follows have attested to this key.</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3527.4669,203.79489 -1.4147,1.41475"
+       d="m 3595.1176,213.08835 -1.4147,1.41475"
        id="path753" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3527.4442,205.20523 -1.4012,-1.41272"
+       d="m 3595.0949,214.49869 -1.4012,-1.41272"
        id="path754"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3526.4795,187.98822 0.4471,0.39485 0.81,-1.40296"
+       d="m 3594.1302,197.28168 0.4471,0.39485 0.81,-1.40296"
        id="path755"
        sodipodi:nodetypes="ccc" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="path756"
-       cx="3526.7949"
-       cy="188.16141"
+       cx="3594.4456"
+       cy="197.45486"
        r="0.79028708" />
     <rect
        style="fill:#e1e1e1;fill-opacity:1;stroke:#000000;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect775"
        width="6.3226347"
        height="2.9384766"
-       x="3655.521"
-       y="75.115997"
+       x="3520.5312"
+       y="208.03813"
        rx="0"
        ry="1.4314108" />
     <circle
        style="fill:#4b4b4b;fill-opacity:1;stroke:none;stroke-width:0.135596;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="path775"
-       cx="3657.1848"
-       cy="76.591187"
+       cx="3522.1951"
+       cy="209.51332"
        r="1.071874" />
     <text
        xml:space="preserve"
        id="text775"
        style="font-style:normal;font-weight:normal;font-size:1.36941px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect780);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3647.0443,-43.098121)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3512.0546,89.824023)"><tspan
          x="11.371094"
          y="116.66669"
-         id="tspan271">Off</tspan></text>
+         id="tspan219">Off</tspan></text>
     <text
        xml:space="preserve"
        id="text780"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect781);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3651.3393,-43.268311)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3516.3496,89.653833)"><tspan
          x="11.371094"
          y="116.96959"
-         id="tspan272">Public</tspan></text>
+         id="tspan220">Public</tspan></text>
     <text
        xml:space="preserve"
        id="text788"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect792);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3514.8255,63.522499)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3582.4762,72.815956)"><tspan
          x="11.371094"
          y="117.27249"
-         id="tspan274"><tspan
+         id="tspan222"><tspan
            style="font-size:2.05412px"
-           id="tspan273">3 of 5 keys</tspan></tspan></text>
+           id="tspan221">3 of 5 keys</tspan></tspan></text>
     <g
        id="g797"
-       transform="translate(-107.12726,-150.32918)">
+       transform="translate(-39.476641,-141.03572)">
       <text
          xml:space="preserve"
          id="text797"
@@ -14583,64 +14595,64 @@
          transform="matrix(1.0304482,0,0,1.0304482,3647.2345,209.39441)"><tspan
            x="11.371094"
            y="116.66669"
-           id="tspan275">ID: 70075595e...00215de10</tspan></text>
+           id="tspan223">ID: 70075595e...00215de10</tspan></text>
     </g>
     <text
        xml:space="preserve"
        id="text802"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect803);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3514.8255,80.136349)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3582.4762,89.429809)"><tspan
          x="11.371094"
          y="117.27249"
-         id="tspan277"><tspan
+         id="tspan225"><tspan
            style="font-size:2.05412px"
-           id="tspan276">2 of 3 keys</tspan></tspan></text>
+           id="tspan224">2 of 3 keys</tspan></tspan></text>
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0808441;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect656"
        width="53.443024"
        height="5.4024782"
-       x="3520.5464"
-       y="218.55188" />
+       x="3588.197"
+       y="227.84534" />
     <text
        xml:space="preserve"
        id="text656"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect691);display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3531.0419,135.51862)"
+       transform="matrix(0.73446945,0,0,0.73446945,3598.6926,144.81208)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan278">Review &amp; Save</tspan></text>
+         id="tspan226">Review &amp; Save</tspan></text>
     <circle
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="path803"
-       cx="3522.2246"
-       cy="183.87823"
+       cx="3589.8752"
+       cy="193.17169"
        r="1.4122105" />
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.207896;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="path804"
-       cx="3522.2246"
-       cy="183.87823"
+       cx="3589.8752"
+       cy="193.17169"
        r="1.076108" />
     <circle
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.143805;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle804"
-       cx="3522.2258"
-       cy="183.89606"
+       cx="3589.8765"
+       cy="193.18951"
        r="0.74435842" />
     <circle
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle805"
-       cx="3522.2246"
-       cy="199.97046"
+       cx="3589.8752"
+       cy="209.26392"
        r="1.4122105" />
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.207896;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle806"
-       cx="3522.2246"
-       cy="199.97046"
+       cx="3589.8752"
+       cy="209.26392"
        r="1.076108" />
     <g
        id="g808"
@@ -14655,69 +14667,69 @@
        xml:space="preserve"
        id="text798"
        style="font-style:normal;font-weight:normal;font-size:1.36941px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect800-6);display:inline;fill:#999999;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3540.4048,75.310759)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3608.0555,84.604219)"><tspan
          x="11.371094"
          y="116.66669"
-         id="tspan279">ID: 6f8803c71...ead73ad48</tspan></text>
+         id="tspan227">ID: 6f8803c71...ead73ad48</tspan></text>
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="path809"
-       cx="3540.7126"
-       cy="183.54303"
+       cx="3608.3633"
+       cy="192.83649"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle809"
-       cx="3543.6384"
-       cy="183.54303"
+       cx="3611.2891"
+       cy="192.83649"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle810"
-       cx="3546.564"
-       cy="183.54303"
+       cx="3614.2146"
+       cy="192.83649"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle811"
-       cx="3549.4897"
-       cy="183.54303"
+       cx="3617.1404"
+       cy="192.83649"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle812"
-       cx="3552.4155"
-       cy="183.54303"
+       cx="3620.0662"
+       cy="192.83649"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle813"
-       cx="3540.6194"
-       cy="200.21564"
+       cx="3608.27"
+       cy="209.50909"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle814"
-       cx="3543.5452"
-       cy="200.21564"
+       cx="3611.1958"
+       cy="209.50909"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle815"
-       cx="3546.4707"
-       cy="200.21564"
+       cx="3614.1213"
+       cy="209.50909"
        r="1.2091449" />
     <rect
        style="fill:#ececec;fill-opacity:1;stroke:#606060;stroke-width:0.933;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect817"
        width="48.049625"
        height="14.158338"
-       x="3655.9436"
-       y="55.108887"
+       x="3520.9539"
+       y="188.03102"
        ry="1.895587" />
     <g
        id="g819"
-       transform="translate(1.8577812,-271.91671)">
+       transform="translate(-133.13192,-138.99457)">
       <rect
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
          id="rect818"
@@ -14749,21 +14761,21 @@
          transform="matrix(1.0304482,0,0,1.0304482,3648.5626,209.39441)"><tspan
            x="11.371094"
            y="116.66669"
-           id="tspan280">November 7th, 2024 UTC</tspan></text>
+           id="tspan228">November 7th, 2024 UTC</tspan></text>
     </g>
     <text
        xml:space="preserve"
        id="text821"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect860);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3645.9479,-58.065021)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3510.9582,74.857123)"><tspan
          x="11.371094"
          y="117.27249"
-         id="tspan282"><tspan
+         id="tspan230"><tspan
            style="font-size:2.05412px"
-           id="tspan281">3 of 5 keys</tspan></tspan></text>
+           id="tspan229">3 of 5 keys</tspan></tspan></text>
     <g
        id="g822"
-       transform="translate(23.995201,-271.91671)">
+       transform="translate(-110.99451,-138.99457)">
       <text
          xml:space="preserve"
          id="text822"
@@ -14771,102 +14783,102 @@
          transform="matrix(1.0304482,0,0,1.0304482,3647.2345,209.39441)"><tspan
            x="11.371094"
            y="116.66669"
-           id="tspan283">ID: 70075595e...00215de10</tspan></text>
+           id="tspan231">ID: 70075595e...00215de10</tspan></text>
     </g>
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle822"
-       cx="3671.835"
-       cy="61.955505"
+       cx="3536.8452"
+       cy="194.87764"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle823"
-       cx="3674.7607"
-       cy="61.955505"
+       cx="3539.771"
+       cy="194.87764"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle824"
-       cx="3677.6863"
-       cy="61.955505"
+       cx="3542.6965"
+       cy="194.87764"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle825"
-       cx="3680.6121"
-       cy="61.955505"
+       cx="3545.6223"
+       cy="194.87764"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle826"
-       cx="3683.5378"
-       cy="61.955505"
+       cx="3548.5481"
+       cy="194.87764"
        r="1.2091449" />
     <text
        xml:space="preserve"
        id="text861"
        style="font-style:normal;font-weight:normal;font-size:1.36941px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect864);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3647.8638,-54.177031)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3512.8741,78.745113)"><tspan
          x="11.371094"
          y="116.66669"
-         id="tspan284">Lady Jessica and 9 others that you follow have 
+         id="tspan232">Lady Jessica and 9 others that you follow have 
 </tspan><tspan
          x="11.371094"
          y="118.37845"
-         id="tspan285">attested to this key.</tspan></text>
+         id="tspan233">attested to this key.</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3657.7215,66.119059 0.4471,0.39485 0.81,-1.40296"
+       d="m 3522.7318,199.0412 0.4471,0.39485 0.81,-1.40296"
        id="path861"
        sodipodi:nodetypes="ccc" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle861"
-       cx="3658.0369"
-       cy="66.292236"
+       cx="3523.0471"
+       cy="199.21437"
        r="0.79028708" />
     <text
        xml:space="preserve"
        id="text864"
        style="font-style:normal;font-weight:normal;font-size:1.36941px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect865);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3509.0731,91.406989)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3576.7238,100.70045)"><tspan
          x="11.371094"
          y="116.66669"
-         id="tspan286">Lady Jessica and 5 other of your followers also follow Gurney Halleck.</tspan></text>
+         id="tspan234">Lady Jessica and 5 other of your followers also follow Gurney Halleck.</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.126;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle865"
-       cx="3591.1018"
-       cy="149.6113"
+       cx="3658.408"
+       cy="25.663584"
        r="4.4305186" />
     <text
        xml:space="preserve"
        id="text865"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect868);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3585.4324,29.031729)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3652.7386,-94.915987)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan287">Gurney Halleck</tspan></text>
+         id="tspan235">Gurney Halleck</tspan></text>
     <text
        xml:space="preserve"
        id="text866"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect870);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.1935213,0,0,1.1935213,3575.0132,10.087699)"><tspan
+       transform="matrix(1.1935213,0,0,1.1935213,3642.3194,-113.86002)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan288">GH</tspan></text>
+         id="tspan236">GH</tspan></text>
     <rect
        style="fill:#ececec;fill-opacity:1;stroke:#606060;stroke-width:0.933;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect877"
        width="48.049625"
        height="14.158338"
-       x="3587.3857"
-       y="162.22647"
+       x="3654.6919"
+       y="38.278759"
        ry="1.895587" />
     <g
        id="g881"
-       transform="translate(-66.700192,-164.79914)">
+       transform="translate(0.60597393,-288.74686)">
       <rect
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
          id="rect880"
@@ -14898,21 +14910,21 @@
          transform="matrix(1.0304482,0,0,1.0304482,3648.5626,209.39441)"><tspan
            x="11.371094"
            y="116.66669"
-           id="tspan289">November 7th, 2024 UTC</tspan></text>
+           id="tspan237">November 7th, 2024 UTC</tspan></text>
     </g>
     <text
        xml:space="preserve"
        id="text883"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect890);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3577.39,49.052549)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3644.6962,-74.895167)"><tspan
          x="11.371094"
          y="117.27249"
-         id="tspan291"><tspan
+         id="tspan239"><tspan
            style="font-size:2.05412px"
-           id="tspan290">3 of 5 keys</tspan></tspan></text>
+           id="tspan238">3 of 5 keys</tspan></tspan></text>
     <g
        id="g884"
-       transform="translate(-44.562772,-164.79914)">
+       transform="translate(22.743394,-288.74686)">
       <text
          xml:space="preserve"
          id="text884"
@@ -14920,172 +14932,172 @@
          transform="matrix(1.0304482,0,0,1.0304482,3647.2345,209.39441)"><tspan
            x="11.371094"
            y="116.66669"
-           id="tspan292">ID: 70075595e...00215de10</tspan></text>
+           id="tspan240">ID: 70075595e...00215de10</tspan></text>
     </g>
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle884"
-       cx="3603.2771"
-       cy="169.07309"
+       cx="3670.5833"
+       cy="45.125378"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle885"
-       cx="3606.2029"
-       cy="169.07309"
+       cx="3673.509"
+       cy="45.125378"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle886"
-       cx="3609.1284"
-       cy="169.07309"
+       cx="3676.4346"
+       cy="45.125378"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle887"
-       cx="3612.0542"
-       cy="169.07309"
+       cx="3679.3604"
+       cy="45.125378"
        r="1.2091449" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle888"
-       cx="3614.98"
-       cy="169.07309"
+       cx="3682.2861"
+       cy="45.125378"
        r="1.2091449" />
     <text
        xml:space="preserve"
        id="text888"
        style="font-style:normal;font-weight:normal;font-size:1.36941px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect892);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3579.3059,52.940539)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3646.6121,-71.007177)"><tspan
          x="11.371094"
          y="116.66669"
-         id="tspan293">Lady Jessica and 4 others in your network have attested 
+         id="tspan241">Lady Jessica and 4 others in your network have attested 
 </tspan><tspan
          x="11.371094"
          y="118.37845"
-         id="tspan294">to this event.</tspan></text>
+         id="tspan242">to this event.</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3589.1636,173.23663 0.4471,0.39485 0.81,-1.40296"
+       d="m 3656.4698,49.288911 0.4471,0.39485 0.81,-1.40296"
        id="path888"
        sodipodi:nodetypes="ccc" />
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle889"
-       cx="3589.479"
-       cy="173.40982"
+       cx="3656.7852"
+       cy="49.462109"
        r="0.79028708" />
     <text
        xml:space="preserve"
        id="text892"
        style="font-style:normal;font-weight:normal;font-size:2.46944px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect893);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="translate(3509.5843,43.542639)"><tspan
+       transform="translate(3576.8905,-80.405077)"><tspan
          x="77.679688"
          y="115.92902"
-         id="tspan295">My Current Recovery Keys</tspan></text>
+         id="tspan243">My Current Recovery Keys</tspan></text>
     <rect
        style="fill:#999999;fill-opacity:0.819987;stroke:#000000;stroke-width:0.0425902;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect896"
        width="17.861437"
        height="3.8647325"
-       x="3625.5901"
-       y="211.51797" />
+       x="3692.8962"
+       y="87.570259" />
     <text
        xml:space="preserve"
        id="text896"
        style="font-style:normal;font-weight:normal;font-size:2.40158px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect913);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3619.0482,127.65229)"
+       transform="matrix(0.73446945,0,0,0.73446945,3686.3544,3.7045714)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.57991"
-         id="tspan296">Make Attestation</tspan></text>
+         id="tspan244">Make Attestation</tspan></text>
     <rect
        style="fill:#999999;fill-opacity:0.819987;stroke:#000000;stroke-width:0.0425902;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect917"
        width="17.861437"
        height="3.8647325"
-       x="3625.5901"
-       y="218.16071" />
+       x="3692.8962"
+       y="94.21299" />
     <text
        xml:space="preserve"
        id="text917"
        style="font-style:normal;font-weight:normal;font-size:2.40158px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect918);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3619.0482,134.295)"
+       transform="matrix(0.73446945,0,0,0.73446945,3686.3544,10.347281)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.57991"
-         id="tspan297">Make Attestation</tspan></text>
+         id="tspan245">Make Attestation</tspan></text>
     <rect
        style="fill:#999999;fill-opacity:0.819987;stroke:#000000;stroke-width:0.0425902;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect919"
        width="17.861437"
        height="3.8647325"
-       x="3625.5901"
-       y="224.63043" />
+       x="3692.8962"
+       y="100.68272" />
     <text
        xml:space="preserve"
        id="text919"
        style="font-style:normal;font-weight:normal;font-size:2.40158px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect920);display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3619.0482,140.76472)"
+       transform="matrix(0.73446945,0,0,0.73446945,3686.3544,16.817001)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.57991"
-         id="tspan298">Make Attestation</tspan></text>
+         id="tspan246">Make Attestation</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0577313;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect921"
        width="27.137138"
        height="5.425591"
-       x="3586.9858"
-       y="182.67642" />
+       x="3654.292"
+       y="58.72871" />
     <text
        xml:space="preserve"
        id="text921"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect935);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3583.1675,99.508279)"
+       transform="matrix(0.73446945,0,0,0.73446945,3650.4737,-24.439437)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan299">Begin a Recovery</tspan></text>
+         id="tspan247">Begin a Recovery</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0578183;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect936"
        width="27.219376"
        height="5.4255042"
-       x="3615.2107"
-       y="182.67737" />
+       x="3682.5168"
+       y="58.729656" />
     <text
        xml:space="preserve"
        id="text936"
        style="font-style:normal;font-weight:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect973);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.73446945,0,0,0.73446945,3612.0467,99.655609)"
+       transform="matrix(0.73446945,0,0,0.73446945,3679.3529,-24.292107)"
        x="5.8704386"
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan300">Delete Account</tspan></text>
+         id="tspan248">Delete Account</tspan></text>
     <text
        xml:space="preserve"
        id="text975"
        style="font-style:normal;font-weight:normal;font-size:1.71177px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect977);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(1.0304482,0,0,1.0304482,3579.8988,60.134639)"><tspan
+       transform="matrix(1.0304482,0,0,1.0304482,3647.205,-63.813077)"><tspan
          x="11.371094"
          y="116.96959"
-         id="tspan301">I understand these actions are irreversible.</tspan></text>
+         id="tspan249">I understand these actions are irreversible.</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect628-2"
        width="2.5534236"
        height="2.3645492"
-       x="3587.3076"
-       y="178.79663" />
+       x="3654.6138"
+       y="54.848919" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.55;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       d="m 3588.1008,179.72302 0.7477,0.64391 1.5343,-2.52693"
+       d="m 3655.407,55.775301 0.7477,0.64391 1.5343,-2.52693"
        id="path629-7" />
     <text
        xml:space="preserve"
@@ -15094,7 +15106,7 @@
        transform="translate(3521.0553,184.55567)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan302">Recovery Key Overview</tspan></text>
+         id="tspan250">Recovery Key Overview</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.126;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle865-2"
@@ -15108,7 +15120,7 @@
        transform="matrix(1.0304482,0,0,1.0304482,3518.3058,192.28132)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan303">Gurney Halleck</tspan></text>
+         id="tspan251">Gurney Halleck</tspan></text>
     <text
        xml:space="preserve"
        id="text866-3"
@@ -15116,7 +15128,7 @@
        transform="matrix(1.1935213,0,0,1.1935213,3507.8866,173.33729)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan304">GH</tspan></text>
+         id="tspan252">GH</tspan></text>
     <rect
        style="fill:#ececec;fill-opacity:1;stroke:#606060;stroke-width:0.933;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect877-7"
@@ -15159,7 +15171,7 @@
          transform="matrix(1.0304482,0,0,1.0304482,3648.5626,209.39441)"><tspan
            x="11.371094"
            y="116.66669"
-           id="tspan305">November 7th, 2024 UTC</tspan></text>
+           id="tspan253">November 7th, 2024 UTC</tspan></text>
     </g>
     <text
        xml:space="preserve"
@@ -15168,9 +15180,9 @@
        transform="matrix(1.0304482,0,0,1.0304482,3510.2634,212.30214)"><tspan
          x="11.371094"
          y="117.27249"
-         id="tspan307"><tspan
+         id="tspan255"><tspan
            style="font-size:2.05412px"
-           id="tspan306">3 of 5 keys</tspan></tspan></text>
+           id="tspan254">3 of 5 keys</tspan></tspan></text>
     <g
        id="g884-1"
        transform="translate(-111.68938,-1.5495501)">
@@ -15181,7 +15193,7 @@
          transform="matrix(1.0304482,0,0,1.0304482,3647.2345,209.39441)"><tspan
            x="11.371094"
            y="116.66669"
-           id="tspan308">ID: 70075595e...00215de10</tspan></text>
+           id="tspan256">ID: 70075595e...00215de10</tspan></text>
     </g>
     <circle
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.133;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -15220,11 +15232,11 @@
        transform="matrix(1.0304482,0,0,1.0304482,3512.1793,216.19013)"><tspan
          x="11.371094"
          y="116.66669"
-         id="tspan309">Lady Jessica and 4 others in your network have attested 
+         id="tspan257">Lady Jessica and 4 others in your network have attested 
 </tspan><tspan
          x="11.371094"
          y="118.37845"
-         id="tspan310">to this event.</tspan></text>
+         id="tspan258">to this event.</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.233;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 3522.037,336.48622 0.4471,0.39485 0.81,-1.40296"
@@ -15243,7 +15255,7 @@
        transform="translate(3442.4577,206.79223)"><tspan
          x="77.679688"
          y="115.92902"
-         id="tspan311">My Current Recovery Keys</tspan></text>
+         id="tspan259">My Current Recovery Keys</tspan></text>
     <rect
        style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.0577313;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect921-6"
@@ -15260,7 +15272,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan312">Begin a Key Migration</tspan></text>
+         id="tspan260">Begin a Key Migration</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0578183;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect936-6"
@@ -15277,7 +15289,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan313">Delete Account</tspan></text>
+         id="tspan261">Delete Account</tspan></text>
     <text
        xml:space="preserve"
        id="text975-2"
@@ -15285,7 +15297,7 @@
        transform="matrix(1.0304482,0,0,1.0304482,3512.7722,223.38423)"><tspan
          x="11.371094"
          y="116.96959"
-         id="tspan314">I understand these actions are irreversible.</tspan></text>
+         id="tspan262">I understand these actions are irreversible.</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect628-2-6"
@@ -15304,7 +15316,7 @@
        transform="translate(3442.0249,241.2854)"><tspan
          x="77.679688"
          y="115.92902"
-         id="tspan315">My Follows</tspan></text>
+         id="tspan263">My Follows</tspan></text>
     <text
        xml:space="preserve"
        id="text998"
@@ -15314,15 +15326,15 @@
        y="0"><tspan
          x="23.755856"
          y="117.5774"
-         id="tspan317"><tspan
+         id="tspan265"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan316">Recovery 
+           id="tspan264">Recovery 
 </tspan></tspan><tspan
          x="26.898931"
          y="120.57583"
-         id="tspan319"><tspan
+         id="tspan267"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan318">Keys</tspan></tspan></text>
+           id="tspan266">Keys</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text999"
@@ -15332,15 +15344,15 @@
        y="0"><tspan
          x="25.094606"
          y="117.5774"
-         id="tspan321"><tspan
+         id="tspan269"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan320">Shared 
+           id="tspan268">Shared 
 </tspan></tspan><tspan
          x="24.690521"
          y="120.57583"
-         id="tspan323"><tspan
+         id="tspan271"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan322">Network</tspan></tspan></text>
+           id="tspan270">Network</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text1000"
@@ -15348,7 +15360,7 @@
        transform="matrix(0.66180616,0,0,0.66180616,3512.5029,302.57308)"><tspan
          x="11.371094"
          y="117.5774"
-         id="tspan324">Name</tspan></text>
+         id="tspan272">Name</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.0649922;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle1003"
@@ -15362,7 +15374,7 @@
        transform="matrix(0.53151664,0,0,0.53151664,3518.7958,330.34666)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan325">Paul Atreides </tspan></text>
+         id="tspan273">Paul Atreides </tspan></text>
     <text
        xml:space="preserve"
        id="text1004"
@@ -15370,7 +15382,7 @@
        transform="matrix(0.61563155,0,0,0.61563155,3513.6495,320.58058)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan326">PA</tspan></text>
+         id="tspan274">PA</tspan></text>
     <circle
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.0649922;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="circle1004"
@@ -15384,7 +15396,7 @@
        transform="matrix(0.53151664,0,0,0.53151664,3518.7958,323.57224)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan327">Duncan Idaho</tspan></text>
+         id="tspan275">Duncan Idaho</tspan></text>
     <text
        xml:space="preserve"
        id="text1006"
@@ -15392,7 +15404,7 @@
        transform="matrix(0.61563155,0,0,0.61563155,3513.757,313.81592)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan328">DI</tspan></text>
+         id="tspan276">DI</tspan></text>
     <rect
        style="fill:#999999;fill-opacity:0.819987;stroke:#000000;stroke-width:0.0425902;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect1013"
@@ -15409,7 +15421,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.57991"
-         id="tspan329">Send DM</tspan></text>
+         id="tspan277">Send DM</tspan></text>
     <text
        xml:space="preserve"
        id="text1021"
@@ -15417,9 +15429,9 @@
        transform="matrix(0.66180616,0,0,0.66180616,3531.5767,315.26932)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan331">2 <tspan
+         id="tspan279">2 <tspan
    style="font-size:1.86569px"
-   id="tspan330">of</tspan> 3</tspan></text>
+   id="tspan278">of</tspan> 3</tspan></text>
     <text
        xml:space="preserve"
        id="text1022"
@@ -15429,7 +15441,7 @@
        y="0"><tspan
          x="46.229808"
          y="117.95208"
-         id="tspan332">6</tspan></text>
+         id="tspan280">6</tspan></text>
     <g
        id="g1024"
        transform="translate(-8.822592,290.18119)">
@@ -15468,7 +15480,7 @@
        transform="matrix(0.66180616,0,0,0.66180616,3533.5433,308.26627)"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan333">0</tspan></text>
+         id="tspan281">0</tspan></text>
     <text
        xml:space="preserve"
        id="text1025"
@@ -15478,7 +15490,7 @@
        y="0"><tspan
          x="46.229808"
          y="117.95208"
-         id="tspan334">3</tspan></text>
+         id="tspan282">3</tspan></text>
     <g
        id="g1027"
        transform="translate(-8.955452,283.17814)">
@@ -15526,7 +15538,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.57991"
-         id="tspan335">Make Attestation</tspan></text>
+         id="tspan283">Make Attestation</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.0577313;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect1093"
@@ -15543,7 +15555,7 @@
        y="0"><tspan
          x="11.371094"
          y="117.95208"
-         id="tspan336">Start Recovery Review</tspan></text>
+         id="tspan284">Start Recovery Review</tspan></text>
     <text
        xml:space="preserve"
        id="text1096"
@@ -15551,7 +15563,7 @@
        transform="matrix(1.0304482,0,0,1.0304482,3580.8615,397.34281)"><tspan
          x="11.371094"
          y="116.96959"
-         id="tspan337">I understand these actions are irreversible.</tspan></text>
+         id="tspan285">I understand these actions are irreversible.</tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.25;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect1098"
@@ -15563,5 +15575,31 @@
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.55;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 3589.0635,516.93119 0.7477,0.64391 1.5343,-2.52693"
        id="path1098" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.243616;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="rect51"
+       width="60.817444"
+       height="99.101303"
+       x="3652.0667"
+       y="143.5007"
+       inkscape:tile-cx="41.288975"
+       inkscape:tile-cy="60.83651"
+       inkscape:tile-w="62.66124"
+       inkscape:tile-h="101.94838"
+       inkscape:tile-x0="9.9583549"
+       inkscape:tile-y0="9.8623199" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.243616;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="rect66"
+       width="60.817444"
+       height="99.101303"
+       x="3651.8726"
+       y="430.64603"
+       inkscape:tile-cx="41.288975"
+       inkscape:tile-cy="60.83651"
+       inkscape:tile-w="62.66124"
+       inkscape:tile-h="101.94838"
+       inkscape:tile-x0="9.9583549"
+       inkscape:tile-y0="9.8623199" />
   </g>
 </svg>
