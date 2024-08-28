@@ -9,6 +9,7 @@ Key Migration and Revocation
 This NIP defines the protocol that SHOULD be implemented by clients and relays to handle a key migration and revocation of a key. At a minimum this specification defines a protocol for a compromised private key to be revoked. Clients give warning that the key is compromised. Relays and clients delete events and reject future events from a revoked key. Also defined is a protocol to migrate to a new successor key with multiple optional methods for users of clients to verify and accept or reject the change. This includes methods such as: a social graph with attestations, recovery keys and side-channel identity anchors.
 
 There are four new events introduced:
+
 * [Recovery Keys Setup](#recovery-keys-setup-event)
 * [Recovery Keys Attestation](#recovery-keys-attestation-event)
 * [Key Migration and Revocation](#key-migration-and-revocation-event)
@@ -50,6 +51,9 @@ This is an event that is non-replaceable. Its primary purpose is to define a set
 * Clients MAY provide a manual verification process that can be verified through a side-channel to be able to independently replace the _Recovery Keys Setup Event_.
 * Clients are ENCOURAGED to use hardware devices and NIP-06 seed phrases to backup the recovery keys.
 
+### Example UX Wireframes
+
+![Recovery Keys Setup Event Example UX Wireframes](recovery-keys-setup-ux.png "Recovery Keys Setup Event Example UX Wireframes")
 
 ## Recovery Keys Attestation Event
 
@@ -72,6 +76,10 @@ This is an event that is non-replaceable. This is a means to save a single valid
 * The `content` field MUST include the Recovery Key Setup Event either encrypted and _private_ or unencrypted and _public_.
 * The `recovery-key-attestation` MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY be included for this event and clients can use this to help with verification.
+
+### Example UX Wireframes
+
+![Recovery Keys Attestation Event Example UX Wireframes](recovery-keys-attestation-ux.png "Recovery Keys Attestation Event Example UX Wireframes")
 
 ## Key Migration and Revocation Event
 
@@ -127,6 +135,10 @@ For a relay, this event is primarily a key revocation, and storing the necessary
 * The recovery keys and signatures SHOULD NOT be verified, all key migration verification is handled by the client.
 * For denial-of-service mitigation, a relay MAY require proof-of-work, a small fee or another solution to continue to write _Key Migration and Revocation Events_. This SHOULD be determined by the terms agreed upon by the client and relay.
 
+### Example UX Wireframes
+
+![Key Migration and Revocation Event Example UX Wireframes](key-migration-and-revocation-ux.png "Key Migration and Revocation Event Example UX Wireframes")
+
 ## Key Migration Attestation Event
 
 This is an event that is non-replaceable and MUST either be unencrypted and _public_ or encrypted and _private_. The default SHOULD be _private_. The primary purpose of this event is for each client to keep track of old keys that SHOULD be blocked, filtered and muted. The secondary purpose of this event is to signal to other clients of a successful path for key migration.
@@ -147,6 +159,8 @@ This is an event that is non-replaceable and MUST either be unencrypted and _pub
 * For a _private_ attestation, the tags `p`, `e` and `new-key` MUST NOT be included. This MUST instead be encrypted and base64 encoded into the content field.
 * The `key-migration-attestation` tag MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY be included for this event and clients can use this to help with verification.
+
+![Key Migration Attestation Event Example UX Wireframes](key-migration-attestation-ux.png "Key Migration Attestation Event Example UX Wireframes")
 
 ## External References
 
