@@ -163,7 +163,3 @@ This is an event that is non-replaceable and MUST either be unencrypted and _pub
 ### Key Migration Attestation UX Example
 
 ![Key Migration Attestation Event Example UX Wireframes](key-migration-attestation-ux.png "Key Migration Attestation UX Example")
-
-## External References
-
-- [UX Storyboard](/ux-storyboard.pdf)
