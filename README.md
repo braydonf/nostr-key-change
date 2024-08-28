@@ -6,11 +6,7 @@ Key Migration and Revocation
 
 `draft` `optional` `author:braydonf`
 
-This NIP defines the protocol that SHOULD be implemented by clients and relays to handle a key migration and revocation of a key.
-
-At the minimum this specification describes a protocol to revoke a public key for both relays and clients to delete events and prevent future events from a compromised private key and to provide a warning to users that the key is NOT valid.
-
-This specification also defines a protocol to migrate to a new successor key with multiple methods for users of clients to verify and accept or reject the change. This includes methods such as: a social graph with attestations, recovery keys and side-channel identity anchors.
+This NIP defines the protocol that SHOULD be implemented by clients and relays to handle a key migration and revocation of a key. At a minimum this specification defines a protocol for a compromised private key to be revoked. Clients give warning that the key is compromised. Relays and clients delete events and reject future events from a revoked key. Also defined is a protocol to migrate to a new successor key with multiple optional methods for users of clients to verify and accept or reject the change. This includes methods such as: a social graph with attestations, recovery keys and side-channel identity anchors.
 
 There are four new events introduced:
 * [Recovery Keys Setup](#recovery-keys-setup-event)
