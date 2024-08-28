@@ -8,7 +8,7 @@ Key Migration and Revocation
 
 This NIP defines the protocol that SHOULD be implemented by clients and relays to handle a key migration and revocation of a key.
 
-At the minimum this specification describes a protocol to revoke a public key for both relays and clients to delete events and prevent future events from a compromised private key and to provide a warning to users that the key is not valid.
+At the minimum this specification describes a protocol to revoke a public key for both relays and clients to delete events and prevent future events from a compromised private key and to provide a warning to users that the key is NOT valid.
 
 This specification also defines a protocol to migrate to a new successor key with multiple methods for users of clients to verify and accept or reject the change. This includes methods such as: a social graph with attestations, recovery keys and side-channel identity anchors.
 
@@ -38,21 +38,21 @@ This is an event that is non-replaceable. Its primary purpose is to define a set
 ```
 
 * A `p` tag MUST be included and be the hex encoded public keys for the recovery keys.
-* If `threshold` tag is NOT included, the threshold should default to `1`.
 * The `recovery-key-setup` MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
+* If `threshold` tag is NOT included, the threshold SHOULD default to `1`.
 * The content MAY include a comment, most clients can ignore this field.
 
 ### Behaviors
 
 * Clients MUST only consider one to be valid.
 * If multiple events exist for a pubkey, a user interface SHOULD provide a means to pick one. There can be various means to help select the key including; displaying public attestations from within a social graph or NIP-03 timestamp associated with the event.
-* Any future events of this kind MUST not be automatically accepted and considered verified as it could be from an attacker due to a compromised or stolen private key, it could ALSO be the honest event.
+* Any future events of this kind MUST NOT be automatically accepted and considered verified as it could be from an attacker due to a compromised or stolen private key, it could ALSO be the honest event.
 * Every client SHOULD make either a private or public attestation when receiving a Recovery Keys Setup Event for pubkeys that they follow. The default SHOULD be private. The client SHOULD provide user interaction to make attestations public or private.
 * The attestations SHOULD be stored locally to verify a possible future Key Migration and Revocation Event.
 * Relays SHOULD store multiple events from a pubkey of this kind.
 * Clients SHOULD implement a user interface to help prevent accidental broadcasts of this event.
 * Clients MAY provide a manual verification process that can be verified through a side-channel to be able to independently replace the Recovery Keys Setup Event.
-* Clients are encouraged to use hardware devices and NIP-06 seed phrases to backup the recovery keys.
+* Clients are ENCOURAGED to use hardware devices and NIP-06 seed phrases to backup the recovery keys.
 
 
 ## Recovery Keys Attestation Event
@@ -72,7 +72,7 @@ This is an event that is non-replaceable. This is a means save a single valid Re
 ```
 
 * The `p` tag for a public attestation MUST include a public key and MUST match the pubkey for the Recovery Key Setup Event.
-* A private attestation MUST not include the `p` tag.
+* A private attestation MUST NOT include the `p` tag.
 * The `content` field MUST include the Recovery Key Setup Event either encrypted and private or unencrypted and public.
 * The `recovery-key-attestation` MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY be included for this event and clients can use this to help with verification.
@@ -96,20 +96,20 @@ This is an event that is non-replaceable. It will revoke a pubkey and all events
 }
 ```
 
-* The `new-key` tag SHOULD be included, otherwise it will be a key revocation without a successor key and all events will be deleted.
 * The `content` MUST include the signatures for `m` of `n` public keys as specified in the referenced Recovery Keys Setup Event. The signature SHOULD be for the entire event as similar to the event signature.
 * If a `new-key` IS provided, the `key-migration-and-revocation` tag MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * If a `new-key` IS NOT provided, the `key-revocation` tag MUST be included, this is also to help prevent mistakes.
-* Clients SHOULD implement a means to verify that users are aware of the account and behaviors of the event to avoid accidental broadcast. Please see the [External References](#external-references) section for UX guidance.
+* The `new-key` tag SHOULD be included, otherwise it will be a key revocation without a successor key and all events will be deleted.
+* Clients SHOULD implement a means to verify that users are aware of the account and behaviors of the event to avoid accidental broadcast.
 * A NIP-03 timestamp attestation MAY be included for this event and clients can use this to help with verification.
 * Clients MAY use a NIP-18 Generic Repost with a copy of the event in the content to help relay distribution.
 
 ### Event Handling for Clients
 
-For a client, this event is both a revocation and a migration. The revocation MUST be handled by verifying only the event signature and MUST be automatic. The migration, on the other hand, MUST be presented and verified by the user to accept or reject the migration key change. Please see the [External References](#external-references) section for additional guidance for UX design.
+For a client, this event is both a revocation and a migration. The revocation MUST be handled by verifying only the event signature and MUST be automatic. The migration, on the other hand, MUST be presented and verified by the user to accept or reject the migration key change.
 
 #### Behaviors
-* Verification of the event and NOT the recovery keys determines if a revocation is valid.
+* Signature verification of the event and NOT the recovery keys MUST determine the revocation validity.
 * Upon a valid key revocation:
   * All events MUST display a warning that the event is from a revoked pubkey.
   * All events of a revoked pubkey SHOULD be deleted, this MAY be after a duration of time depending on the client or preferences.
@@ -124,16 +124,16 @@ For a client, this event is both a revocation and a migration. The revocation MU
 For a relay, this event is primarily a key revocation, and storing the necessary information for clients to verify the key migration.
 
 #### Behaviors
-* Verification of the event and NOT the recovery keys determines if a revocation is valid.
+* Signature verification of the event and NOT the recovery keys MUST determine the revocation validity.
 * Upon a valid key revocation:
   * All events of a revoked pubkey MUST be deleted. The time-frame that events are deleted MAY be defined by an agreed upon terms between client and relay.
   * All future events, as determined when it was received and not the date on the event, of a revoked pubkey MUST be rejected except for another Key Migration and Revocation event. This is to ensure that if a key is compromised and a fraudulent event is made, an honest event can also be made and broadcast. Each client can then verify which is honest.
-* The recovery keys do not need to be verified, all key migration verification is handled by the client.
+* The recovery keys and signatures SHOULD NOT be verified, all key migration verification is handled by the client.
 * For denial-of-service mitigation, a relay MAY require proof-of-work, a small fee or another solution to continue to write Key Migration and Revocation Events. This SHOULD be determined by the terms agreed upon by the client and relay.
 
 ## Key Migration Attestation Event
 
-This is an event that is non-replaceable and MUST either be unencrypted and public or encrypted and private. The default SHOULD be private. The primary purpose of this event is for each client to keep track of old keys that should be blocked, filtered and muted. The secondary purpose of this event is to signal to other clients of a successful path for key migration.
+This is an event that is non-replaceable and MUST either be unencrypted and public or encrypted and private. The default SHOULD be private. The primary purpose of this event is for each client to keep track of old keys that SHOULD be blocked, filtered and muted. The secondary purpose of this event is to signal to other clients of a successful path for key migration.
 
 ```json
   "kind": "<tbd>",
@@ -148,7 +148,7 @@ This is an event that is non-replaceable and MUST either be unencrypted and publ
 ```
 
 * For a public attestation, the tags `p`, `e` and `new-key` MUST be included.
-* For a private attestation, the tags `p`, `e` and `new-key` MUST not be included. This should instead be encrypted and base64 encoded into the content field.
+* For a private attestation, the tags `p`, `e` and `new-key` MUST NOT be included. This MUST instead be encrypted and base64 encoded into the content field.
 * The `key-migration-attestation` tag MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY be included for this event and clients can use this to help with verification.
 
