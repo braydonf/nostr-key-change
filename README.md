@@ -51,9 +51,9 @@ This is an event that is non-replaceable. Its primary purpose is to define a set
 * Clients MAY provide a manual verification process that can be verified through a side-channel to be able to independently replace the _Recovery Keys Setup Event_.
 * Clients are ENCOURAGED to use hardware devices and NIP-06 seed phrases to backup the recovery keys.
 
-### Example UX Wireframes
+### Recovery Keys Setup UX Example
 
-![Recovery Keys Setup Event Example UX Wireframes](recovery-keys-setup-ux.png "Recovery Keys Setup Event Example UX Wireframes")
+![Recovery Keys Setup Event Example UX Wireframes](recovery-keys-setup-ux.png "Recovery Keys Setup UX Example")
 
 ## Recovery Keys Attestation Event
 
@@ -77,9 +77,9 @@ This is an event that is non-replaceable. This is a means to save a single valid
 * The `recovery-key-attestation` MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY be included for this event and clients can use this to help with verification.
 
-### Example UX Wireframes
+### Recovery Keys Attestation UX Example
 
-![Recovery Keys Attestation Event Example UX Wireframes](recovery-keys-attestation-ux.png "Recovery Keys Attestation Event Example UX Wireframes")
+![Recovery Keys Attestation Event Example UX Wireframes](recovery-keys-attestation-ux.png "Recovery Keys Attestation UX Example")
 
 ## Key Migration and Revocation Event
 
@@ -135,9 +135,9 @@ For a relay, this event is primarily a key revocation, and storing the necessary
 * The recovery keys and signatures SHOULD NOT be verified, all key migration verification is handled by the client.
 * For denial-of-service mitigation, a relay MAY require proof-of-work, a small fee or another solution to continue to write _Key Migration and Revocation Events_. This SHOULD be determined by the terms agreed upon by the client and relay.
 
-### Example UX Wireframes
+### Key Migration and Revocation UX Example
 
-![Key Migration and Revocation Event Example UX Wireframes](key-migration-and-revocation-ux.png "Key Migration and Revocation Event Example UX Wireframes")
+![Key Migration and Revocation Event Example UX Wireframes](key-migration-and-revocation-ux.png "Key Migration and Revocation UX Example")
 
 ## Key Migration Attestation Event
 
@@ -160,7 +160,9 @@ This is an event that is non-replaceable and MUST either be unencrypted and _pub
 * The `key-migration-attestation` tag MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY be included for this event and clients can use this to help with verification.
 
-![Key Migration Attestation Event Example UX Wireframes](key-migration-attestation-ux.png "Key Migration Attestation Event Example UX Wireframes")
+### Key Migration Attestation UX Example
+
+![Key Migration Attestation Event Example UX Wireframes](key-migration-attestation-ux.png "Key Migration Attestation UX Example")
 
 ## External References
 
