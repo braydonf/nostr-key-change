@@ -15,6 +15,8 @@ There are four new events introduced:
 * [Key Migration and Revocation](#key-migration-and-revocation-event)
 * [Key Migration Attestation](#key-migration-attestation-event)
 
+There are also many [UX Example Wireframes](#ux-example-wireframes) included.
+
 ## Recovery Keys Setup Event
 
 This is an event that is non-replaceable. Its primary purpose is to define a set of recovery keys that can be used to migrate to a new key in the future, if it becomes necessary. The event can assign anywhere from `1` to `n` recovery keys assigned to be able to sign the _Key Migration and Revocation Event_. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
@@ -148,7 +150,7 @@ This is an event that is non-replaceable and MUST either be unencrypted and _pub
 * The `key-migration-attestation` tag MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY be included for this event and clients can use this to help with verification.
 
-## UX Examples
+## UX Example Wireframes
 
 ### Recovery Keys Setup UX Example
 
