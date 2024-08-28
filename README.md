@@ -51,10 +51,6 @@ This is an event that is non-replaceable. Its primary purpose is to define a set
 * Clients MAY provide a manual verification process that can be verified through a side-channel to be able to independently replace the _Recovery Keys Setup Event_.
 * Clients are ENCOURAGED to use hardware devices and NIP-06 seed phrases to backup the recovery keys.
 
-### Recovery Keys Setup UX Example
-
-![Recovery Keys Setup Event Example UX Wireframes](graphics/recovery-keys-setup-ux.png "Recovery Keys Setup UX Example")
-
 ## Recovery Keys Attestation Event
 
 This is an event that is non-replaceable. This is a means to save a single valid _Recovery Keys Setup Event_ for a public key. The attestation can be either _private_ or _public_. By making a _public_ attestation, others in the network can see that they are able to verify the recovery keys for a profile; this can help built a robust fault-tolerant network. The default option SHOULD be _private_. The primary purpose for this event is for clients to be able to verify the recovery keys for a later _Key Migration and Revocation Event_.
@@ -76,10 +72,6 @@ This is an event that is non-replaceable. This is a means to save a single valid
 * The `content` field MUST include the Recovery Key Setup Event either encrypted and _private_ or unencrypted and _public_.
 * The `recovery-key-attestation` MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY be included for this event and clients can use this to help with verification.
-
-### Recovery Keys Attestation UX Example
-
-![Recovery Keys Attestation Event Example UX Wireframes](graphics/recovery-keys-attestation-ux.png "Recovery Keys Attestation UX Example")
 
 ## Key Migration and Revocation Event
 
@@ -135,10 +127,6 @@ For a relay, this event is primarily a key revocation, and storing the necessary
 * The recovery keys and signatures SHOULD NOT be verified, all key migration verification is handled by the client.
 * For denial-of-service mitigation, a relay MAY require proof-of-work, a small fee or another solution to continue to write _Key Migration and Revocation Events_. This SHOULD be determined by the terms agreed upon by the client and relay.
 
-### Key Migration and Revocation UX Example
-
-![Key Migration and Revocation Event Example UX Wireframes](graphics/key-migration-and-revocation-ux.png "Key Migration and Revocation UX Example")
-
 ## Key Migration Attestation Event
 
 This is an event that is non-replaceable and MUST either be unencrypted and _public_ or encrypted and _private_. The default SHOULD be _private_. The primary purpose of this event is for each client to keep track of old keys that SHOULD be blocked, filtered and muted. The secondary purpose of this event is to signal to other clients of a successful path for key migration.
@@ -159,6 +147,20 @@ This is an event that is non-replaceable and MUST either be unencrypted and _pub
 * For a _private_ attestation, the tags `p`, `e` and `new-key` MUST NOT be included. This MUST instead be encrypted and base64 encoded into the content field.
 * The `key-migration-attestation` tag MUST be included, it's otherwise ignored, however can help prevent making this event by chance or accident.
 * A NIP-03 timestamp attestation MAY be included for this event and clients can use this to help with verification.
+
+## UX Examples
+
+### Recovery Keys Setup UX Example
+
+![Recovery Keys Setup Event Example UX Wireframes](graphics/recovery-keys-setup-ux.png "Recovery Keys Setup UX Example")
+
+### Recovery Keys Attestation UX Example
+
+![Recovery Keys Attestation Event Example UX Wireframes](graphics/recovery-keys-attestation-ux.png "Recovery Keys Attestation UX Example")
+
+### Key Migration and Revocation UX Example
+
+![Key Migration and Revocation Event Example UX Wireframes](graphics/key-migration-and-revocation-ux.png "Key Migration and Revocation UX Example")
 
 ### Key Migration Attestation UX Example
 
