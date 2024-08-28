@@ -53,7 +53,7 @@ This is an event that is non-replaceable. Its primary purpose is to define a set
 
 ### Recovery Keys Setup UX Example
 
-![Recovery Keys Setup Event Example UX Wireframes](recovery-keys-setup-ux.png "Recovery Keys Setup UX Example")
+![Recovery Keys Setup Event Example UX Wireframes](graphics/recovery-keys-setup-ux.png "Recovery Keys Setup UX Example")
 
 ## Recovery Keys Attestation Event
 
@@ -79,7 +79,7 @@ This is an event that is non-replaceable. This is a means to save a single valid
 
 ### Recovery Keys Attestation UX Example
 
-![Recovery Keys Attestation Event Example UX Wireframes](recovery-keys-attestation-ux.png "Recovery Keys Attestation UX Example")
+![Recovery Keys Attestation Event Example UX Wireframes](graphics/recovery-keys-attestation-ux.png "Recovery Keys Attestation UX Example")
 
 ## Key Migration and Revocation Event
 
@@ -137,7 +137,7 @@ For a relay, this event is primarily a key revocation, and storing the necessary
 
 ### Key Migration and Revocation UX Example
 
-![Key Migration and Revocation Event Example UX Wireframes](key-migration-and-revocation-ux.png "Key Migration and Revocation UX Example")
+![Key Migration and Revocation Event Example UX Wireframes](graphics/key-migration-and-revocation-ux.png "Key Migration and Revocation UX Example")
 
 ## Key Migration Attestation Event
 
@@ -162,4 +162,4 @@ This is an event that is non-replaceable and MUST either be unencrypted and _pub
 
 ### Key Migration Attestation UX Example
 
-![Key Migration Attestation Event Example UX Wireframes](key-migration-attestation-ux.png "Key Migration Attestation UX Example")
+![Key Migration Attestation Event Example UX Wireframes](graphics/key-migration-attestation-ux.png "Key Migration Attestation UX Example")
