@@ -1,7 +1,7 @@
 NIP-X
 =====
 
-Key Migration and Revocation
+Key Revocation and Migration
 ------
 
 `draft` `optional`
@@ -10,17 +10,18 @@ This NIP defines a protocol for clients and relays to gracefully recovery from a
 
 At a minimum this includes the revocation of a private key. Clients give warning that the key is compromised. Relays and clients reject future events from a revoked key and may delete existing events.
 
-Also defined is a protocol for a user to be able to remember and associated a public key with a user such that if a key is compromised, the user is able to identity who it was and how to go about recovering from the compromise. This includes an ability to remember the original name, NIP-05 identification, websites, recovery keys and other associated metadata. Client implementations can provide various strategies to help that recovery, starting a simple as displaying that the key has been compromised.
+Also defined is a protocol for a user to be able to remember and associated a public key with a user such that if a key is compromised, the user is able to identity who it was and how to go about recovering from the compromise. This includes an ability to remember the original name, NIP-05 identification, websites, migration keys and other associated metadata. Client implementations can provide various strategies to help that recovery, starting a simple as displaying that the key has been compromised.
 
 There are two new events introduced:
 
-* [Key Migration and Revocation](#key-migration-and-revocation-event)
+* [Key Revocation](#key-revocation-event)
 * [User Metadata Attestation](#user-metadata-attestation-event)
 
-There is one new field introduced for a user's metadata (`kind 0`) of `recovery_pubkeys`:
-* [Recovery Keys](#recovery-keys)
+There is one new field `migration_pubkeys` introduced for a user's metadata of `kind 0`:
 
-## Key Migration and Revocation Event
+* [Migration Keys](#migration-keys)
+
+## Key Revocation Event
 
 This is a regular event with kind `50`. It will revoke a public key (it has been compromised) and stop future events from the key. It will also provide a means to inform followers of the compromise and suggest a new public key to follow.
 
@@ -30,19 +31,14 @@ This is a regular event with kind `50`. It will revoke a public key (it has been
   "pubkey": "<user-pubkey>",
   "tags": [
 	["new-key", "<new-pubkey>"],
-	["key-migration"],
-	["recovery-sigs", "<index-0-sig", "<index-1-sig>", "<index-2-sig>"]
+	["key-revocation"]
   ],
   "content": "<optional-comment>"
 }
 ```
 
-* If a `new-key` IS provided:
-  * The `key-migration` tag MUST be included, once and without a value.
-  * There MUST NOT be multiple `new-key` tags or mulitple values.
-  * The `recovery-sigs` tag MAY be included with the signatures for `m` of `n` recovery public keys.
-* If a `new-key` IS NOT provided:
-  * The `key-revocation` tag MUST be included, once and without a value.
+* The `key-revocation` tag MUST be included, once and without a value.
+* There MUST NOT be multiple `new-key` tags or multiple values.
 
 ### Event Handling for Clients
 
@@ -56,8 +52,8 @@ For a client, this event is both a revocation with a suggestion for migration. T
 
 #### Key Migration
 * If a user has made a prior _User Metadata Attestation_:
-  * The user interface MAY display the original name, NIP-05, recovery keys (with signature verification) and other attested to user metadata.
-  * The user interface MAY provide a means to accept or reject a suggested key migration. This can include verifying using NIP-05, recovery keys, a social graph of those the user follows that are now following the suggested new key.
+  * The user interface MAY display the original name, NIP-05, migration keys (with signature verification) and other attested to user metadata.
+  * The user interface MAY provide a means to accept or reject a suggested key migration. This can include verifying using NIP-05, migration keys, a social graph of those the user follows that are now following the suggested new key.
 * Upon the user accepting a suggested new key:
   * The _old key_ SHOULD be unfollowed and the _new key_ SHOULD be followed.
   * The _old key_ SHOULD be added to a mute list.
@@ -74,7 +70,7 @@ For a relay, this event is a key revocation.
 
 ## User Metadata Attestation Event
 
-This is a parameterized replaceable event with kind `30051`. This should be an attestation for another user's metadata `kind 0`. This will help a user remember what public key is associated with what `display_name`, `nip05`, `website` and other metadata, should that `kind 0` event be compromised in the future. It can also attest to a newly defined `recovery_pubkeys` field that could later be useful to be able to verify a user should their private key be compromised. The attestation can include both _public_ and _private_ information.
+This is a parameterized replaceable event with kind `30051`. This should be an attestation for another user's metadata `kind 0`. This will help a user remember what public key is associated with what `display_name`, `nip05`, `website` and other metadata, should that `kind 0` event be compromised in the future. It can also attest to a newly defined `migration_pubkeys` field that could later be useful to be able to verify a user should their private key be compromised. The attestation can include both _public_ and _private_ information.
 
 Public:
 ```js
@@ -112,15 +108,31 @@ Private:
   * The `d` tag MUST be an encrypted and hashed version of the public key, and MUST be the hex encoding of a sha256 hash of an encrypted, with NIP-44, of the public key.
   * The `p`, `metadata` and `attestations` tags, as the same as the public attestation, MUST be JSON stringified and NIP-44 encrypted in the content field.
 
-## Recovery Keys
+## Migration Keys
 
-This is a new field on a `kind 0` event with a key of `recovery_keys`. Its purpose is to define a set of recovery keys that can be used to help migrate to a new key in the future, if it becomes necessary. The event can assign anywhere from `1` to `n` recovery keys assigned to be able to sign a _Key Migration and Revocation Event_. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
+This is a new field on a `kind 0` event with a key of `migration_keys`. Its purpose is to define a set of migration keys that can be used to help migrate to a new key in the future, if it becomes necessary. The event can assign anywhere from `1` to `n` migration keys assigned to be able to sign a _Key Migration and Revocation Event_. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
 
 The value should be as follows:
 
 ```js
-[<threshold>, <recovery-pubkey-1>, <recovery-pubkey-2>]
+[<threshold>, <migration-pubkey-1>, <migration-pubkey-2>]
 ```
 
 * Clients MAY present a user interface to make an attestation, for future reference, if this field is available an the metadata.
-* Clients MAY use hardware devices and NIP-06 seed phrases to backup the recovery keys.
+* Clients MAY use hardware devices and NIP-06 seed phrases to backup the migration keys.
+
+### Revocation Event Signing
+
+A _Key Revocation Event_ MAY be signed with `m` of `n` of these migration keys. This can help assist the migration process for those that have previously attested to the `migration_keys`.
+
+The following tag should be included:
+```js
+{
+	"kind": 50,
+	"tags": [
+		// other tags
+		["migration-sigs", "<index-0-sig", "<index-1-sig>", "<index-2-sig>"]
+	]
+	// other fields
+}
+```
