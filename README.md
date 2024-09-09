@@ -17,7 +17,7 @@ There are two new events introduced:
 * [Key Revocation](#key-revocation-event)
 * [User Metadata Attestation](#user-metadata-attestation-event)
 
-There is one new field `migration_pubkeys` introduced for a user's metadata of `kind 0`:
+There is one new optional field `migration_pubkeys` introduced for a user's metadata of `kind 0`:
 
 * [Migration Keys](#migration-keys)
 
@@ -64,9 +64,9 @@ For a relay, this event is a key revocation.
 
 #### Key Revocation
 * Upon a valid key revocation:
-  * All future events, as determined when it was received and not the date on the event, of a revoked public key MUST be rejected except for another _Key Migration and Revocation Event_. This is to ensure that if a key is compromised and a fraudulent event is made, an honest event can also be made and broadcast.
+  * All future events, as determined when it was received and not the date on the event, of a revoked public key MUST be rejected except for another _Key Revocation Event_. This is to ensure that if a key is compromised and a fraudulent event is made, an honest event can also be made and broadcast.
   * All events of a revoked public key MAY be deleted. The time-frame that events are deleted MAY be defined by an agreed upon terms between client and relay.
-* For denial-of-service mitigation, a relay MAY require proof-of-work, a small fee or another solution to continue to write _Key Migration and Revocation Events_. This SHOULD be determined by the terms agreed upon by the client and relay.
+* For denial-of-service mitigation, a relay MAY require proof-of-work, a small fee or another solution to continue to write _Key Revocation Events_. This SHOULD be determined by the terms agreed upon by the client and relay.
 
 ## User Metadata Attestation Event
 
@@ -110,7 +110,7 @@ Private:
 
 ## Migration Keys
 
-This is a new field on a `kind 0` event with a key of `migration_keys`. Its purpose is to define a set of migration keys that can be used to help migrate to a new key in the future, if it becomes necessary. The event can assign anywhere from `1` to `n` migration keys assigned to be able to sign a _Key Migration and Revocation Event_. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
+This is a new field on a `kind 0` event with a key of `migration_keys`. Its purpose is to define a set of migration keys that can be used to help migrate to a new key in the future, if it becomes necessary. The event can assign anywhere from `1` to `n` migration keys assigned to be able to sign a _Key Revocation Event_. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
 
 The value should be as follows:
 
