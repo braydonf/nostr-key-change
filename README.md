@@ -17,7 +17,7 @@ There are two new events introduced:
 * [Key Revocation](#key-revocation-event)
 * [User Metadata Attestation](#user-metadata-attestation-event)
 
-There is one new optional field (`migration_pubkeys`) introduced for a user's metadata (`kind 0`):
+There is one new optional field (`migration_pubkeys`) for a user's metadata (`kind 0`):
 
 * [Migration Keys](#migration-keys)
 
@@ -42,7 +42,7 @@ This is a regular event with kind `50`. It will revoke a public key _(it has bee
 
 ### Event Handling for Clients
 
-For a client, this event is a revocation with a suggestion for a migration to a successor public key. The revocation SHOULD be automatic. The migration, if it is provided, MUST NOT be automatic and MAY be presented and verified by the user to accept or reject the migration key change.
+For a client, this event is a revocation with a suggestion for a migration to a successor public key. The revocation SHOULD be automatic. The migration, if it is provided, SHOULD NOT be automatic and MAY be presented and verified by the user to accept or reject the migration key change.
 
 #### Key Revocation
 * Upon a valid key revocation:
@@ -70,7 +70,7 @@ For a relay, this event is a key revocation.
 
 ## User Metadata Attestation Event
 
-This is a parameterized replaceable event with kind `30050`. This should be an attestation for another user's metadata (`kind 0`). This will help a user remember what public key is associated with what `display_name`, `nip05`, `website` and other metadata (should that `kind 0` event be compromised in the future). It can also attest to a newly defined `migration_pubkeys` field that could be useful to be able to identify a user. The attestation can be _public_ or _private_.
+This is a parameterized replaceable event with kind `30050`. This is an attestation for another user's metadata (`kind 0`). This will help a user remember what public key is associated with what `display_name`, `nip05`, `website` and other metadata (should that `kind 0` event be compromised in the future). It can also attest to a newly defined `migration_pubkeys` field that could be useful to be able to identify a user. The attestation can be _public_ or _private_.
 
 Public:
 ```js
@@ -81,7 +81,7 @@ Public:
 	["d", "<pubkey-of-friend>"],
 	["p", "<pubkey-of-friend>"],
 	["p", "<optional-predecessor-pubkey-of-friend>"],
-	["attestations", JSONStringify({"<metadata-key>": "<metadata_value>"})]
+	["attestations", JSONStringify({"<metadata-key>": "<metadata-value>, "<metadata-key>": "<metadata-value>"})]
   ],
   "content": ""
 }
@@ -96,7 +96,7 @@ Private:
   ],
   "content": Nip44Encrypt(JSONStringify([
 	["p", "<pubkey-of-friend>"],
-	["attestations", JSONStringify({"<metadata-key>": "<metadata_value>"})]
+	["attestations", JSONStringify({"<metadata-key>": "<metadata-value>, "<metadata-key>": "<metadata-value>"})]
   ]))
 ```
 
@@ -125,7 +125,7 @@ The value should be as follows:
 
 A _Key Revocation Event_ MAY be signed with `m` of `n` of these migration keys. This can help assist the migration process for those that have previously attested to the `migration_keys`.
 
-The following tag should be included:
+The following `migration-sigs` tag MAY be included:
 ```js
 {
 	"kind": 50,
