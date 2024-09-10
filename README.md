@@ -81,7 +81,10 @@ Public:
 	["d", "<pubkey-of-friend>"],
 	["p", "<pubkey-of-friend>"],
 	["p", "<optional-predecessor-pubkey-of-friend>"],
-	["attestations", JSONStringify({"<metadata-key>": "<metadata-value>, "<metadata-key>": "<metadata-value>"})]
+	["attestations", JSONStringify({
+	  "<metadata-key>": "<metadata-value>",
+	  "<metadata-key>": "<metadata-value>"
+	})]
   ],
   "content": ""
 }
@@ -96,7 +99,10 @@ Private:
   ],
   "content": Nip44Encrypt(JSONStringify([
 	["p", "<pubkey-of-friend>"],
-	["attestations", JSONStringify({"<metadata-key>": "<metadata-value>, "<metadata-key>": "<metadata-value>"})]
+	["attestations", JSONStringify({
+	  "<metadata-key>": "<metadata-value>",
+	  "<metadata-key>": "<metadata-value>"
+	})]
   ]))
 ```
 
