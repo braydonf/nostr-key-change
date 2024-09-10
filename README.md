@@ -53,7 +53,7 @@ For a client, this event is a revocation with a suggestion for a migration to a 
 #### Key Migration
 * If a user has made a prior _User Metadata Attestation_:
   * The user interface MAY display the original name, NIP-05, migration keys and other user metadata that has been attested.
-  * The user interface MAY provide a means to accept or reject a suggested key migration. This can include verifying using NIP-05, migration keys _(with matching signatures)_ , a social graph of those the user follows that are now following the suggested successor public key.
+  * The user interface MAY provide a means to accept or reject a suggested key migration. This can include using NIP-05, migration keys _(with matching signatures)_  and/or a social graph of those the user follows that are now following the suggested successor public key.
 * Upon the user accepting a suggested successor key:
   * The _predecessor public key_ SHOULD be unfollowed and the _successor public key_ SHOULD be followed.
   * The _predecessor public key_ SHOULD be added to a mute list.
@@ -66,7 +66,7 @@ For a relay, this event is a key revocation.
 * Upon a valid key revocation:
   * All future events _(as determined when it was received)_ of a revoked public key MUST be rejected, except for another _Key Revocation Event_. This is to ensure that if a key is compromised and a fraudulent event is made, an honest event can also be made and broadcast.
   * All events of a revoked public key MAY be deleted. The time-frame that events are deleted MAY be defined by an agreed upon terms between client and relay.
-* For denial-of-service mitigation, a relay MAY require proof-of-work, a small fee or another solution to continue to write _Key Revocation Events_. This should be determined by the terms agreed upon by the client and relay.
+* For denial-of-service mitigation, a relay MAY require proof-of-work, a small fee or another solution to continue to write _Key Revocation Events_. This MAY be determined by the terms agreed upon by the client and relay.
 
 ## User Metadata Attestation Event
 
@@ -119,7 +119,7 @@ The value should be as follows:
 ```
 
 * Clients MAY present a user interface to make an attestation, if this field is available on the metadata.
-* Clients MAY use hardware devices and NIP-06 seed phrases to store and backup the migration keys.
+* Clients MAY use hardware devices and NIP-06 seed phrases to store the migration keys.
 
 ### Revocation Event Signing
 
