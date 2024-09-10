@@ -10,7 +10,7 @@ This NIP defines a protocol for clients and relays to gracefully recovery from a
 
 At a minimum this includes the revocation of a private key. Clients give warning that the key is compromised. Relays and clients reject future events from a revoked key and may delete existing events.
 
-Also defined is a protocol for a user to be able to remember an associated a public key for another user. In the event that a private key of the other user is compromised, the user is able to identity who it was and how to go about recovering from the compromise. This includes an ability to remember the original name, NIP-05 identification, website, migration keys and other associated metadata. Client implementations can provide various strategies to help that recovery, starting as simple as displaying that the key has been compromised.
+Also defined is a protocol for a user to be able to remember an associated public key for another user. In the event that a private key of the other user is compromised, the user is able to identity who it was and how to go about recovering from the compromise. This includes an ability to remember the original name, NIP-05 identification, website, migration keys and other associated metadata. Client implementations can provide various strategies to help that recovery, starting as simple as displaying that the key has been compromised.
 
 There are two new events introduced:
 
@@ -42,7 +42,7 @@ This is a regular event with kind `50`. It will revoke a public key _(it has bee
 
 ### Event Handling for Clients
 
-For a client, this event is a revocation with a suggestion for a migration to a new key. The revocation MUST be handled by verifying only the event signature and MUST be automatic. The migration, if it is provided, MUST NOT be automatic and MAY be presented and verified by the user to accept or reject the migration key change.
+For a client, this event is a revocation with a suggestion for a migration to a successor public key. The revocation MUST be handled by verifying only the event signature and MUST be automatic. The migration, if it is provided, MUST NOT be automatic and MAY be presented and verified by the user to accept or reject the migration key change.
 
 #### Key Revocation
 * Upon a valid key revocation:
@@ -53,10 +53,10 @@ For a client, this event is a revocation with a suggestion for a migration to a 
 #### Key Migration
 * If a user has made a prior _User Metadata Attestation_:
   * The user interface MAY display the original name, NIP-05, migration keys and other user metadata that has been attested.
-  * The user interface MAY provide a means to accept or reject a suggested key migration. This can include verifying using NIP-05, migration keys _(with matching signatures)_ , a social graph of those the user follows that are now following the suggested new key.
-* Upon the user accepting a suggested new key:
-  * The _old key_ SHOULD be unfollowed and the _new key_ SHOULD be followed.
-  * The _old key_ SHOULD be added to a mute list.
+  * The user interface MAY provide a means to accept or reject a suggested key migration. This can include verifying using NIP-05, migration keys _(with matching signatures)_ , a social graph of those the user follows that are now following the suggested successor public key.
+* Upon the user accepting a suggested successor key:
+  * The _predecessor public key_ SHOULD be unfollowed and the _successor public key_ SHOULD be followed.
+  * The _predecessor public key_ SHOULD be added to a mute list.
 
 ### Event Handling for Relays
 
