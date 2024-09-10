@@ -42,7 +42,7 @@ This is a regular event with kind `50`. It will revoke a public key _(it has bee
 
 ### Event Handling for Clients
 
-For a client, this event is a revocation with a suggestion for a migration to a successor public key. The revocation MUST be handled by verifying only the event signature and MUST be automatic. The migration, if it is provided, MUST NOT be automatic and MAY be presented and verified by the user to accept or reject the migration key change.
+For a client, this event is a revocation with a suggestion for a migration to a successor public key. The revocation SHOULD be automatic. The migration, if it is provided, MUST NOT be automatic and MAY be presented and verified by the user to accept or reject the migration key change.
 
 #### Key Revocation
 * Upon a valid key revocation:
