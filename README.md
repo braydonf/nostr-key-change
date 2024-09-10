@@ -110,7 +110,7 @@ Private:
 
 ## Migration Keys
 
-This is a new field on a users metadata (`kind 0`) event with a key of `migration_keys`. Its purpose is to define a set of migration keys that can be used to help migrate to a new key in the future. The event can assign anywhere from `1` to `n` migration keys. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
+This is a new field on a users metadata (`kind 0`) event with a key of `migration_keys`. Its purpose is to define a set of migration keys that can be used to help migrate to a successor key in the future. The event can assign anywhere from `1` to `n` migration keys. A threshold number of keys (`m` of `n`) can be assigned to verify this event.
 
 The value should be as follows:
 
