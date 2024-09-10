@@ -30,7 +30,7 @@ This is a regular event with kind `50`. It will revoke a public key _(it has bee
   "kind": 50,
   "pubkey": "<user-pubkey>",
   "tags": [
-	["new-key", "<new-pubkey>"],
+	["successor-key", "<successor-pubkey>"],
 	["key-revocation"]
   ],
   "content": "<optional-comment>"
@@ -38,7 +38,7 @@ This is a regular event with kind `50`. It will revoke a public key _(it has bee
 ```
 
 * The `key-revocation` tag MUST be included, once and without a value.
-* There MUST NOT be multiple `new-key` tags or multiple values.
+* There MUST NOT be multiple `successor-key` tags or multiple values.
 
 ### Event Handling for Clients
 
