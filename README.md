@@ -64,13 +64,13 @@ For a relay, this event is a key revocation.
 
 #### Key Revocation
 * Upon a valid key revocation:
-  * All future events, as determined when it was received, of a revoked public key MUST be rejected, except for another _Key Revocation Event_. This is to ensure that if a key is compromised and a fraudulent event is made, an honest event can also be made and broadcast.
+  * All future events _(as determined when it was received)_ of a revoked public key MUST be rejected, except for another _Key Revocation Event_. This is to ensure that if a key is compromised and a fraudulent event is made, an honest event can also be made and broadcast.
   * All events of a revoked public key MAY be deleted. The time-frame that events are deleted MAY be defined by an agreed upon terms between client and relay.
-* For denial-of-service mitigation, a relay MAY require proof-of-work, a small fee or another solution to continue to write _Key Revocation Events_. This SHOULD be determined by the terms agreed upon by the client and relay.
+* For denial-of-service mitigation, a relay MAY require proof-of-work, a small fee or another solution to continue to write _Key Revocation Events_. This should be determined by the terms agreed upon by the client and relay.
 
 ## User Metadata Attestation Event
 
-This is a parameterized replaceable event with kind `30050`. This should be an attestation for another user's metadata (`kind 0`). This will help a user remember what public key is associated with what `display_name`, `nip05`, `website` and other metadata (should that `kind 0` event be compromised in the future). It can also attest to a newly defined `migration_pubkeys` field that could be useful to be able to identify a user. The attestation can include both _public_ and _private_ information.
+This is a parameterized replaceable event with kind `30050`. This should be an attestation for another user's metadata (`kind 0`). This will help a user remember what public key is associated with what `display_name`, `nip05`, `website` and other metadata (should that `kind 0` event be compromised in the future). It can also attest to a newly defined `migration_pubkeys` field that could be useful to be able to identify a user. The attestation can be _public_ or _private_.
 
 Public:
 ```js
@@ -105,7 +105,7 @@ Private:
   * Another `p` tag SHOULD be included if there was a predecessor public key. This helps to inform other users of a link between the predecessor public and a successor public key.
   * The `attestations` tag MUST include JSON stringified copy of the attested to metadata keys and values.
 * For a _private_ attestation:
-  * The `d` tag MUST be an encrypted and hashed version of the public key, and MUST be the hex encoding of a sha256 hash of an encrypted, with NIP-44, of the public key.
+  * The `d` tag MUST be an encrypted and hashed version of the public key (hex encoding of a sha256 hash of an encrypted, with NIP-44, of the public key).
   * The `p`, `metadata` and `attestations` tags, as the same as the public attestation, MUST be JSON stringified and NIP-44 encrypted in the content field.
 
 ## Migration Keys
